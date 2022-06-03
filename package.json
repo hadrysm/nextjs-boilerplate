@@ -1,6 +1,7 @@
 {
   "name": "nextjs-boilerplate",
   "version": "0.1.0",
+  "description": "Next.js boilerplate with husky, lint-staged, eslint + prettier, jest, react-testing-library, storybook, ghaction and plop.",
   "private": true,
   "scripts": {
     "dev": "next dev",
