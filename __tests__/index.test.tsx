@@ -5,6 +5,7 @@ describe('Home Page', () => {
   it('renders a heading', () => {
     render(<Home />);
 
+    // Assert
     screen.getByRole('heading', {
       name: /Nextjs boilerplate/i
     });
