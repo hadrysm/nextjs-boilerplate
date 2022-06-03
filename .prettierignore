@@ -4,3 +4,4 @@ yarn.lock
 public 
 coverage
 .gitkeep
+*.hbs
