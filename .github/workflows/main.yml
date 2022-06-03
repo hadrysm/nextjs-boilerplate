@@ -1,0 +1,74 @@
+name: Test application generation
+
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  prettier-check:
+    name: Prettier check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Install dependencies
+        run: yarn install
+      - name: Run prettier check
+        run: yarn prettier:check
+
+  eslint-check:
+    name: Eslint check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Install dependencies
+        run: yarn install
+      - name: Run eslint check
+        run: yarn eslint:format
+
+  jest-check:
+    name: Tests - jest
+    needs: [prettier-check, eslint-check]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Install dependencies
+        run: yarn install
+      - name: Run tests
+        run: yarn test:ci
+        env:
+          CI: true
+
+  nextjs-build-check:
+    name: Build nextjs application
+    needs: [jest-check]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Install dependencies
+        run: yarn install
+      - name: Build nextjs
+        run: yarn build
+        env:
+          CI: true
+
+  storybook-build-check:
+    name: Build storybook application
+    needs: [jest-check]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Install dependencies
+        run: yarn install
+      - name: Build storybook
+        run: yarn storybook:build
+        env:
+          CI: true
