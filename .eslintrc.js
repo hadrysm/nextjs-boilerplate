@@ -53,9 +53,8 @@ module.exports = {
         groups: [
           '/^next/',
           'module',
-          '/^components/',
-          '/^utils/',
-          '/^styles/',
+          '/^@/components/',
+          '/^@/lib/',
           ['parent', 'sibling', 'index']
         ],
         alphabetize: { order: 'asc', ignoreCase: true }
