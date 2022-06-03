@@ -1,8 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 
-import { Text } from 'components/Text/Text';
-
 const Home: NextPage = () => {
   return (
     <div>
@@ -14,7 +12,6 @@ const Home: NextPage = () => {
 
       <main>
         <h1>Nextjs boilerplate</h1>
-        <Text />
       </main>
     </div>
   );
