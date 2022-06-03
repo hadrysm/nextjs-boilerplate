@@ -1,12 +1,14 @@
 {
   "compilerOptions": {
     "incremental": true, // https://nextjs.org/docs/basic-features/typescript#incremental-type-checking
-    "baseUrl": "src",
+    "baseUrl": ".",
     "paths": {
-      "@/components/*": ["./components/*"],
-      "@/pages/*": ["./pages/*"],
-      "@/lib/*": ["./lib/*"],
-      "@/hooks/*": ["./hooks/*"]
+      "@/components/*": ["./src/components/*"],
+      "@/pages/*": ["./src/pages/*"],
+      "@/lib/*": ["./src/lib/*"],
+      "@/hooks/*": ["./src/hooks/*"],
+      "@/mocks/*": ["./__mocks__/*"],
+      "@/tests/*": ["./.jest/*"]
     },
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
