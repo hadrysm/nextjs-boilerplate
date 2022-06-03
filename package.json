@@ -1,24 +1,32 @@
 {
-	"name": "nextjs-boilerplate",
-	"version": "0.1.0",
-	"private": true,
-	"scripts": {
-		"dev": "next dev",
-		"build": "next build",
-		"start": "next start",
-		"lint": "next lint"
-	},
-	"dependencies": {
-		"next": "12.1.6",
-		"react": "18.1.0",
-		"react-dom": "18.1.0"
-	},
-	"devDependencies": {
-		"@types/node": "17.0.38",
-		"@types/react": "18.0.10",
-		"@types/react-dom": "18.0.5",
-		"eslint": "8.16.0",
-		"eslint-config-next": "12.1.6",
-		"typescript": "4.7.2"
-	}
+  "name": "nextjs-boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "12.1.6",
+    "react": "18.1.0",
+    "react-dom": "18.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.38",
+    "@types/react": "18.0.10",
+    "@types/react-dom": "18.0.5",
+    "@typescript-eslint/eslint-plugin": "5.27.0",
+    "@typescript-eslint/parser": "5.27.0",
+    "eslint": "8.16.0",
+    "eslint-config-next": "12.1.6",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-import-helpers": "1.2.1",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-react": "7.30.0",
+    "eslint-plugin-react-hooks": "4.5.0",
+    "prettier": "2.6.2",
+    "typescript": "4.7.2"
+  }
 }
