@@ -1,5 +1,5 @@
 import { NextPage } from 'next';
-import type { AppProps } from 'next/app';
+import { AppProps } from 'next/app';
 import { FC, ReactElement, ReactNode } from 'react';
 
 import { MainProvider } from '@/components/providers/MainProvider';
@@ -9,11 +9,11 @@ export type NextPageWithLayout = NextPage & {
   getLayout?: (page: ReactElement) => ReactNode;
 };
 
-interface MyAppProps extends AppProps {
+interface Props extends AppProps {
   Component: NextPageWithLayout;
 }
 
-const MyApp: FC<MyAppProps> = ({ Component, pageProps }) => {
+const MyApp: FC<Props> = ({ Component, pageProps }) => {
   // Use the layout defined at the page level, if available
   const getLayout = Component.getLayout ?? getDefaultLayout;
 
@@ -22,8 +22,6 @@ const MyApp: FC<MyAppProps> = ({ Component, pageProps }) => {
   );
 };
 
-const getDefaultLayout = (page: ReactNode) => {
-  return <MainLayout>{page}</MainLayout>;
-};
+const getDefaultLayout = (page: ReactNode) => <MainLayout>{page}</MainLayout>;
 
 export default MyApp;
