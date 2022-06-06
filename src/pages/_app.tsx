@@ -2,6 +2,8 @@ import { NextPage } from 'next';
 import { AppProps } from 'next/app';
 import { FC, ReactElement, ReactNode } from 'react';
 
+import '@/styles/globals.css';
+
 import { MainProvider } from '@/components/providers/MainProvider';
 import { MainLayout } from '@/components/templates/MainLayout';
 
