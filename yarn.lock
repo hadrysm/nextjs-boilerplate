@@ -1971,18 +1971,18 @@
     regenerator-runtime "^0.13.7"
     ts-dedent "^2.0.0"
 
-"@storybook/addon-storysource@6.5.6":
-  version "6.5.6"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-storysource/-/addon-storysource-6.5.6.tgz#6d53e1d99972863265ecde9023367660636dbd33"
-  integrity sha512-QGGqo7ZaBaWPkKyaXm1uDNnV1+1idoFDTbFl9D3h82foDcvcgAp5PROcWAtXwUE4B3+wkjA/xTwwayKdjWO8Rw==
+"@storybook/addon-storysource@6.5.7":
+  version "6.5.7"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-storysource/-/addon-storysource-6.5.7.tgz#a60ed17c324caf92b0fbb67626a4bdf8253e86af"
+  integrity sha512-4cquq0Oqf9skPdIYkVtO5lAPS7+83TyY4vT52HQ5LSpSekZELQkRxN793jNMQdu2IGQ/l9WqvyzFGaN62bRg7Q==
   dependencies:
-    "@storybook/addons" "6.5.6"
-    "@storybook/api" "6.5.6"
-    "@storybook/client-logger" "6.5.6"
-    "@storybook/components" "6.5.6"
-    "@storybook/router" "6.5.6"
-    "@storybook/source-loader" "6.5.6"
-    "@storybook/theming" "6.5.6"
+    "@storybook/addons" "6.5.7"
+    "@storybook/api" "6.5.7"
+    "@storybook/client-logger" "6.5.7"
+    "@storybook/components" "6.5.7"
+    "@storybook/router" "6.5.7"
+    "@storybook/source-loader" "6.5.7"
+    "@storybook/theming" "6.5.7"
     core-js "^3.8.2"
     estraverse "^5.2.0"
     loader-utils "^2.0.0"
@@ -2717,22 +2717,6 @@
   dependencies:
     core-js "^3.6.5"
     find-up "^4.1.0"
-
-"@storybook/source-loader@6.5.6":
-  version "6.5.6"
-  resolved "https://registry.yarnpkg.com/@storybook/source-loader/-/source-loader-6.5.6.tgz#e20c6a827c2021bbbab05d0bb2c1e6fb66e133a9"
-  integrity sha512-KsV9DU3JucYjWHq55f1bOu52mprgSpTIRUnvK2BojQdjY+kqN2ow0pP/I9FZzNpEKKsGFWdnREfYM5dYHZyvLw==
-  dependencies:
-    "@storybook/addons" "6.5.6"
-    "@storybook/client-logger" "6.5.6"
-    "@storybook/csf" "0.0.2--canary.4566f4d.1"
-    core-js "^3.8.2"
-    estraverse "^5.2.0"
-    global "^4.4.0"
-    loader-utils "^2.0.0"
-    lodash "^4.17.21"
-    prettier ">=2.2.1 <=2.3.0"
-    regenerator-runtime "^0.13.7"
 
 "@storybook/source-loader@6.5.7":
   version "6.5.7"
