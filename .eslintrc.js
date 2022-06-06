@@ -52,6 +52,7 @@ module.exports = {
         newlinesBetween: 'always',
         groups: [
           ['/^next/', 'module'],
+          '/^@/styles/',
           '/^@/components/',
           '/^@/lib/',
           ['parent', 'sibling', 'index']
