@@ -2181,7 +2181,7 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/client-logger@6.5.8", "@storybook/client-logger@^6.4.0 || >=6.5.0-0":
+"@storybook/client-logger@6.5.8", "@storybook/client-logger@^6 || ^7 || ^7.0.0-0":
   version "6.5.8"
   resolved "https://registry.yarnpkg.com/@storybook/client-logger/-/client-logger-6.5.8.tgz#551f818c4448ef6e6adf9c3ad256e1ae61e2d75c"
   integrity sha512-dH6HSaVuOIMHy1+rpsqcD3SJxVZEEbuEtsNpdUGwLJaIuduhUJJpM2xQfUW0siZDyrgwoa+znll+G0YNUbv7sg==
@@ -2392,7 +2392,7 @@
     lodash "^4.17.21"
     regenerator-runtime "^0.13.7"
 
-"@storybook/instrumenter@6.5.8", "@storybook/instrumenter@^6.4.0 || >=6.5.0-0":
+"@storybook/instrumenter@6.5.8", "@storybook/instrumenter@^6 || ^7 || ^7.0.0-0":
   version "6.5.8"
   resolved "https://registry.yarnpkg.com/@storybook/instrumenter/-/instrumenter-6.5.8.tgz#ef8f96e59ede7ab6c4db63ab8ad0ee769caedd1d"
   integrity sha512-MENB68yhmOnmBJW8NzlBSiFD4I7GfnBUMNMlGuoq6mT3/2C3BZqwtiVUx2ry1Rf+Yl9yoI3jMUa/JOJrQ/B34w==
@@ -2627,13 +2627,13 @@
     read-pkg-up "^7.0.1"
     regenerator-runtime "^0.13.7"
 
-"@storybook/testing-library@0.0.11":
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/@storybook/testing-library/-/testing-library-0.0.11.tgz#c07a3b5a76049ea9f9e66c557b506c2b061a93d6"
-  integrity sha512-8KbKx3s1e+uF3oWlPdyXRpZa6xtCsCHtXh1nCTisMA6P5YcSDaCg59NXIOVIQCAwKvjRomlqMJH8JL1WyOzeVg==
+"@storybook/testing-library@0.0.12":
+  version "0.0.12"
+  resolved "https://registry.yarnpkg.com/@storybook/testing-library/-/testing-library-0.0.12.tgz#3cd658b5e883e09a7598fde0900e82e344220118"
+  integrity sha512-MU11qXTPfqwxLQRC19yDf9/79IQSrBHLIt0epU0/SJGEVnwl41L2lgE3ptdCEY8IYzYOjjUXmf+klSFfKXQ7/w==
   dependencies:
-    "@storybook/client-logger" "^6.4.0 || >=6.5.0-0"
-    "@storybook/instrumenter" "^6.4.0 || >=6.5.0-0"
+    "@storybook/client-logger" "^6 || ^7 || ^7.0.0-0"
+    "@storybook/instrumenter" "^6 || ^7 || ^7.0.0-0"
     "@testing-library/dom" "^8.3.0"
     "@testing-library/user-event" "^13.2.1"
     ts-dedent "^2.2.0"
