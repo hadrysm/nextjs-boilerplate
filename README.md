@@ -28,7 +28,6 @@ Developer experience first:
 ## 📅 Plans
 
 - [Bundler Analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
-- One click deployment with Vercel or Netlify (or manual deployment to any hosting services)
 - [next-pwa](https://github.com/shadowwalker/next-pwa)
 
 ## 🧪 Testing
