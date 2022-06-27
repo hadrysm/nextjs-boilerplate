@@ -2,6 +2,10 @@ import { RouterContext } from 'next/dist/shared/lib/router-context';
 import '../src/styles/globals.css';
 
 export const parameters = {
+  darkMode: {
+    // Set the initial theme
+    current: 'light'
+  },
   nextRouter: {
     Provider: RouterContext.Provider,
     path: '/',
