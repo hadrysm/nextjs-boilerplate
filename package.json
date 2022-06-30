@@ -49,7 +49,7 @@
     "@typescript-eslint/eslint-plugin": "5.30.0",
     "@typescript-eslint/parser": "5.30.0",
     "autoprefixer": "10.4.7",
-    "babel-jest": "28.1.1",
+    "babel-jest": "28.1.2",
     "eslint": "8.18.0",
     "eslint-config-next": "12.2.0",
     "eslint-config-prettier": "8.5.0",
