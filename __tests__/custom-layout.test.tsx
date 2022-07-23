@@ -7,7 +7,7 @@ describe('CustomLayoutPage Page', () => {
 
     // Assert
     screen.getByRole('heading', {
-      name: /Nextjs boilerplate - About Me/i
+      name: /Nextjs boilerplate - Custom layout/i
     });
   });
 });

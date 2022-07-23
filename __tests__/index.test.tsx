@@ -7,7 +7,7 @@ describe('Home Page', () => {
 
     // Assert
     screen.getByRole('heading', {
-      name: /Nextjs boilerplate/i
+      name: /🚀 Features:/i
     });
   });
 });
