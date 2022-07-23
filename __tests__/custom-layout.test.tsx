@@ -1,9 +1,9 @@
-import AboutMe from '@/pages/about-me';
+import CustomLayoutPage from '@/pages/custom-layout';
 import { render, screen } from '@/tests/test-utils';
 
-describe('AboutMe Page', () => {
+describe('CustomLayoutPage Page', () => {
   it('renders a heading', () => {
-    render(<AboutMe />);
+    render(<CustomLayoutPage />);
 
     // Assert
     screen.getByRole('heading', {
