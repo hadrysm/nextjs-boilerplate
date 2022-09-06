@@ -41,7 +41,7 @@
     "@storybook/addon-storysource": "6.5.10",
     "@storybook/react": "6.5.10",
     "@testing-library/jest-dom": "5.16.5",
-    "@testing-library/react": "13.3.0",
+    "@testing-library/react": "13.4.0",
     "@testing-library/user-event": "14.4.3",
     "@types/node": "18.7.14",
     "@types/react": "18.0.18",
