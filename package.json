@@ -34,7 +34,7 @@
   "devDependencies": {
     "@storybook/addon-a11y": "6.5.10",
     "@storybook/addon-actions": "6.5.10",
-    "@storybook/addon-essentials": "6.5.10",
+    "@storybook/addon-essentials": "6.5.12",
     "@storybook/addon-interactions": "6.5.10",
     "@storybook/addon-links": "6.5.10",
     "@storybook/addon-postcss": "2.0.0",
