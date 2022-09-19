@@ -9,16 +9,16 @@ interface Props {
 // Add here components like Footer, Nav etc.
 export const MainLayout: FC<Props> = ({ children }) => (
   <div>
-    <header className="p-4 bg-slate-900">
+    <header className="bg-slate-900 p-4">
       <ul className="flex items-center gap-10 text-gray-50">
         <li>
           <Link href="/">
-            <a className="p-2 inline-block transition-colors hover:text-green-300">Home</a>
+            <a className="inline-block p-2 transition-colors hover:text-green-300">Home</a>
           </Link>
         </li>
         <li>
           <Link href="/custom-layout" className="p-2">
-            <a className="p-2 inline-block transition-colors hover:text-green-300">Custom layout</a>
+            <a className="inline-block p-2 transition-colors hover:text-green-300">Custom layout</a>
           </Link>
         </li>
       </ul>
