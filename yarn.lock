@@ -2047,18 +2047,18 @@
     postcss-loader "^4.2.0"
     style-loader "^1.3.0"
 
-"@storybook/addon-storysource@6.5.12":
-  version "6.5.12"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-storysource/-/addon-storysource-6.5.12.tgz#5ac35909bcaf813e7ebd64b190545e0eb5d94e4c"
-  integrity sha512-FpqEbBET2buZ3tzf0I902zokf0zhbeUWmkq8wUxygn4SKhog8yVbvzTIjG7l0kh53t+y/udirzjjAt66LgR2hA==
+"@storybook/addon-storysource@6.5.13":
+  version "6.5.13"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-storysource/-/addon-storysource-6.5.13.tgz#e773bf528ef4ba5b809c308b77b0e1551dccdafb"
+  integrity sha512-Gcru/fBuLZKlswHiD3JNjIWshtv7g0XtNpLOFg1B0lPVgISvBQ92k7SGdRV5HpHVkkzTcQ1yFH78h1RJY80MIQ==
   dependencies:
-    "@storybook/addons" "6.5.12"
-    "@storybook/api" "6.5.12"
-    "@storybook/client-logger" "6.5.12"
-    "@storybook/components" "6.5.12"
-    "@storybook/router" "6.5.12"
-    "@storybook/source-loader" "6.5.12"
-    "@storybook/theming" "6.5.12"
+    "@storybook/addons" "6.5.13"
+    "@storybook/api" "6.5.13"
+    "@storybook/client-logger" "6.5.13"
+    "@storybook/components" "6.5.13"
+    "@storybook/router" "6.5.13"
+    "@storybook/source-loader" "6.5.13"
+    "@storybook/theming" "6.5.13"
     core-js "^3.8.2"
     estraverse "^5.2.0"
     loader-utils "^2.0.0"
@@ -2803,6 +2803,22 @@
   dependencies:
     "@storybook/addons" "6.5.12"
     "@storybook/client-logger" "6.5.12"
+    "@storybook/csf" "0.0.2--canary.4566f4d.1"
+    core-js "^3.8.2"
+    estraverse "^5.2.0"
+    global "^4.4.0"
+    loader-utils "^2.0.0"
+    lodash "^4.17.21"
+    prettier ">=2.2.1 <=2.3.0"
+    regenerator-runtime "^0.13.7"
+
+"@storybook/source-loader@6.5.13":
+  version "6.5.13"
+  resolved "https://registry.yarnpkg.com/@storybook/source-loader/-/source-loader-6.5.13.tgz#40e6e42888b8c12b43a505ffa6c6f1f2cebb0b0d"
+  integrity sha512-tHuM8PfeB/0m+JigbaFp+Ld0euFH+fgOObH2W9rjEXy5vnwmaeex/JAdCprv4oL+LcDQEERqNULUUNIvbcTPAg==
+  dependencies:
+    "@storybook/addons" "6.5.13"
+    "@storybook/client-logger" "6.5.13"
     "@storybook/csf" "0.0.2--canary.4566f4d.1"
     core-js "^3.8.2"
     estraverse "^5.2.0"
