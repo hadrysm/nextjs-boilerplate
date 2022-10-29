@@ -5897,10 +5897,10 @@ eslint-module-utils@^2.7.3:
     debug "^3.2.7"
     find-up "^2.1.0"
 
-eslint-plugin-import-helpers@1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-import-helpers/-/eslint-plugin-import-helpers-1.3.0.tgz#0bdb16dbb932ef5b3aa84cf90426b3f8ff0f05ec"
-  integrity sha512-rOWH24tNMeb47NjwiQ2SPb7GFy0rgXT6LRsED9B58LcdOaU/jr/8zlpGh3LvrjhWxn8fJuRN4w8bka8Fgs8w2w==
+eslint-plugin-import-helpers@1.3.1:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-import-helpers/-/eslint-plugin-import-helpers-1.3.1.tgz#48721a702e758b5d2220ee119d6199e6e29b6819"
+  integrity sha512-MrACDozK6TmTJoCFHD71Ew3r5210Za3zlTrhX+fQGsyvxceaFvAI9AcvZ/8oSU0pZ61G3nDEn6mXY0T4S8cJEg==
 
 eslint-plugin-import@^2.26.0:
   version "2.26.0"
