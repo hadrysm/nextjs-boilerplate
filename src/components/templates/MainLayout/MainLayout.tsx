@@ -6,7 +6,7 @@ interface Props {
 }
 
 const links = [
-  { slug: '/', label: 'Homer' },
+  { slug: '/', label: 'Home' },
   { slug: '/custom-layout', label: 'Custom layout' }
 ];
 
