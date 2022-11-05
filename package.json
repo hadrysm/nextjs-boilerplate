@@ -27,7 +27,7 @@
     ]
   },
   "dependencies": {
-    "next": "12.3.1",
+    "next": "13.0.2",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
@@ -44,14 +44,14 @@
     "@testing-library/react": "13.4.0",
     "@testing-library/user-event": "14.4.3",
     "@types/node": "18.11.9",
-    "@types/react": "18.0.24",
+    "@types/react": "18.0.25",
     "@types/react-dom": "18.0.8",
     "@typescript-eslint/eslint-plugin": "5.42.0",
     "@typescript-eslint/parser": "5.42.0",
     "autoprefixer": "10.4.13",
     "babel-jest": "29.2.2",
     "eslint": "8.26.0",
-    "eslint-config-next": "13.0.1",
+    "eslint-config-next": "13.0.2",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-import-helpers": "1.3.1",
     "eslint-plugin-prettier": "4.2.1",
@@ -72,7 +72,7 @@
     "storybook-addon-next-router": "4.0.1",
     "storybook-dark-mode": "1.1.2",
     "tailwind-scrollbar": "2.0.1",
-    "tailwindcss": "3.2.1",
+    "tailwindcss": "3.2.2",
     "typescript": "4.8.4"
   }
 }
