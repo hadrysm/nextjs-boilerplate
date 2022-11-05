@@ -1,4 +1,4 @@
-# Boilerplate and Starter for Next JS 12+, Tailwind CSS 3 and TypeScript
+# Boilerplate and Starter for Next JS 13+, Tailwind CSS 3 and TypeScript
 
 🚀 Boilerplate and Starter for Next.js, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Jest, React Testing Library, PostCSS, Tailwind CSS, Storybook, Plop, GH actions.
 
@@ -32,7 +32,7 @@ Developer experience first:
 
 ## 🧪 Testing
 
-All tests are collocated with the source code inside the same directory. So, it makes it easier to find them. Unfortunately, it is not possible with the `pages` folder used by Next.js for routing. So, what is why we have a `__tests__` folder to write tests from files located in `pages` folder. Coverage threshold is set to `70%`. In the `.jest` folder there is a custom provider for the all tests.
+All tests are collocated with the source code inside the same directory. So, it makes it easier to find them. Unfortunately, it is not possible with the `pages` folder used by Next.js for routing (`app/` soon 🤟🏻). So, what is why we have a `__tests__` folder to write tests from files located in `pages` folder. Coverage threshold is set to `70%`. In the `.jest` folder there is a custom provider for the all tests.
 
 ## :information_source: How To Use
 

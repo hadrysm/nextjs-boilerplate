@@ -1,5 +1,5 @@
 import { render, RenderOptions } from '@testing-library/react';
-import { FC, ReactElement } from 'react';
+import { ReactElement } from 'react';
 
 type ProvidersProps = {
   readonly children?: any;
@@ -7,7 +7,7 @@ type ProvidersProps = {
 
 // Add in any providers here if necessary:
 // (ReduxProvider, ThemeProvider, etc)
-const Providers: FC<ProvidersProps> = ({ children }) => {
+const Providers = ({ children }: ProvidersProps) => {
   return children;
 };
 

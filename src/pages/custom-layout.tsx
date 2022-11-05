@@ -17,22 +17,22 @@ const CustomLayoutPage: NextPageWithLayout = () => (
   </div>
 );
 
+const links = [
+  { slug: '/', label: 'Homer' },
+  { slug: '/custom-layout', label: 'Custom layout' }
+];
+
 CustomLayoutPage.getLayout = (page: ReactNode) => (
   <div>
     <header className="bg-rose-800 p-4">
       <ul className="flex items-center gap-10 text-gray-50">
-        <li>
-          <Link href="/">
-            <a className="inline-block p-2 transition-colors hover:text-orange-100">Home</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/custom-layout" className="p-2">
-            <a className="inline-block p-2 transition-colors hover:text-orange-100">
-              Custom layout
-            </a>
-          </Link>
-        </li>
+        {links.map(({ slug, label }) => (
+          <li key={slug}>
+            <Link href={slug} className="inline-block p-2 transition-colors hover:text-orange-100">
+              {label}
+            </Link>
+          </li>
+        ))}
       </ul>
     </header>
     <main className="bg-[#FCFCFC]">{page}</main>

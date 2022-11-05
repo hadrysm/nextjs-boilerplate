@@ -1,6 +1,6 @@
 import { NextPage } from 'next';
 import { AppProps } from 'next/app';
-import { FC, ReactElement, ReactNode } from 'react';
+import { ReactElement, ReactNode } from 'react';
 
 import '@/styles/globals.css';
 
@@ -15,7 +15,7 @@ interface Props extends AppProps {
   Component: NextPageWithLayout;
 }
 
-const MyApp: FC<Props> = ({ Component, pageProps }) => {
+const MyApp = ({ Component, pageProps }: Props) => {
   // Use the layout defined at the page level, if available
   const getLayout = Component.getLayout ?? getDefaultLayout;
 
