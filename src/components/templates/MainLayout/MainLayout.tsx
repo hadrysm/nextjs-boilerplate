@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { FC, ReactNode } from 'react';
+import { ReactNode } from 'react';
 
 interface Props {
   children: ReactNode;
@@ -12,7 +12,7 @@ const links = [
 
 // This is the place responsible for wrapping your app.
 // Add here components like Footer, Nav etc.
-export const MainLayout: FC<Props> = ({ children }) => (
+export const MainLayout = ({ children }: Props) => (
   <div>
     <header className="bg-slate-900 p-4">
       <ul className="flex items-center gap-10 text-gray-50">
