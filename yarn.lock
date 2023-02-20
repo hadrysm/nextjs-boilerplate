@@ -11995,10 +11995,10 @@ storybook-addon-next-router@4.0.2:
   dependencies:
     tslib "2.4.0"
 
-storybook-dark-mode@2.0.6:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/storybook-dark-mode/-/storybook-dark-mode-2.0.6.tgz#1d660eb46024df40e6eb62e8b25c72979fc81ce0"
-  integrity sha512-uQYTL6U8VSa26n8ekEImc2+UHURIIgdiwQCO4PtRpVOxoqFUj26i7EsTsQQwIDhDgyC8okEaxYGDIf29Vlb9yA==
+storybook-dark-mode@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/storybook-dark-mode/-/storybook-dark-mode-2.1.0.tgz#2e6b09f6065632d687c15c8f40ab7fc3851f6795"
+  integrity sha512-h9in9pa1SzUD4bZ9eYSQfvPMW2Gp17XdkfF0GbTrOBx8DgmTUoqyA2xa3D/asJaGeaksPWcmFURoqUkJuta5JA==
   dependencies:
     "@storybook/addons" "^6.5.14"
     "@storybook/api" "^6.5.14"
