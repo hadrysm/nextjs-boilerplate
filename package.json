@@ -50,7 +50,7 @@
     "@typescript-eslint/eslint-plugin": "5.54.1",
     "@typescript-eslint/parser": "5.54.1",
     "autoprefixer": "10.4.14",
-    "babel-jest": "29.4.3",
+    "babel-jest": "29.5.0",
     "eslint": "8.35.0",
     "eslint-config-next": "13.2.4",
     "eslint-config-prettier": "8.7.0",
