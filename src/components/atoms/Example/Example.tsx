@@ -1,9 +1,5 @@
-interface ExampleProps {
-  className?: string;
-}
-
-export const Example = ({ ...rest }: ExampleProps) => (
-  <div {...rest}>
+export const Example = () => (
+  <div>
     <h1>Example</h1>
   </div>
 );

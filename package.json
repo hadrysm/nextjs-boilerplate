@@ -18,8 +18,7 @@
     "storybook": "storybook dev -p 6006",
     "storybook:build": "storybook build",
     "postinstall": "husky install",
-    "generate": "yarn plop --plopfile ./.plop/plopfile.js",
-    "build-storybook": "storybook build"
+    "generate": "yarn plop --plopfile ./.plop/plopfile.js"
   },
   "dependencies": {
     "next": "13.4.4",
