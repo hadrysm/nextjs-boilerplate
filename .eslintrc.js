@@ -5,7 +5,8 @@ module.exports = {
     'eslint:recommended',
     'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
-    'plugin:prettier/recommended'
+    'plugin:prettier/recommended',
+    'plugin:storybook/recommended'
   ],
   plugins: [
     'react',
@@ -57,7 +58,10 @@ module.exports = {
           '/^@/lib/',
           ['parent', 'sibling', 'index']
         ],
-        alphabetize: { order: 'asc', ignoreCase: true }
+        alphabetize: {
+          order: 'asc',
+          ignoreCase: true
+        }
       }
     ],
     '@typescript-eslint/no-unused-vars': [
