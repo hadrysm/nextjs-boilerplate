@@ -1,32 +1,47 @@
+import { env } from '@/lib/env';
+
+const features = [
+  '🏎️ Next.js (app routing)',
+  '🔥 Type checking TypeScript',
+  '💅 Tailwind CSS',
+  '✨ ESlint & Prettier',
+  '✨ Prettier',
+  '🧪 Jest',
+  '🧪 React Testing Library',
+  '📕 Storybook',
+  '💎 Atomic Design',
+  '🚀 GitHub Actions',
+  '💻 T3 Env',
+  '🏁 Absolute Imports using `@` prefix'
+];
+
 const HomePage = () => (
   <div>
-    <div className="mx-auto mt-4 max-w-screen-lg">
-      <div className="mt-8 text-center">
-        <p>
-          Boilerplate and Starter for Next.js, Tailwind CSS and TypeScript ⚡️ Made with developer
-          experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Jest, React
-          Testing Library, PostCSS, Tailwind CSS, Storybook, Plop, GH actions.
-        </p>
+    <section className="bg-white dark:bg-gray-900">
+      <div className="mx-auto grid max-w-screen-xl px-4 py-8 text-center lg:py-16">
+        <div className="mx-auto place-self-center">
+          <h1 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight dark:text-white md:text-5xl xl:text-6xl">
+            Next.js Enterprise Boilerplate
+          </h1>
+          <p className="mb-6 max-w-2xl font-light text-gray-500 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
+            Boilerplate and Starter for Next.js, Tailwind CSS and TypeScript ⚡️ Made with developer
+            experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Jest, React
+            Testing Library, PostCSS, Tailwind CSS, Storybook, Plop, GH actions.
+          </p>
+        </div>
       </div>
+    </section>
+    <div className="mx-auto mt-4 max-w-screen-lg">
       <h2 className="text-bold mt-8 text-3xl">🚀 Features:</h2>
       <ul className="ml-6 mt-6 list-disc">
-        <li>Next.js for Static Site Generator</li>
-        <li>Type checking TypeScript</li>
-        <li>Integrate with Tailwind CSS</li>
-        <li>Storybook for components documentation</li>
-        <li>Strict Mode for TypeScript and React 18</li>
-        <li>Linter with ESLint</li>
-        <li>Code Formatter with Prettier</li>
-        <li>Husky for Git Hooks</li>
-        <li>Lint-staged for running linters on Git staged files</li>
-        <li>Testing with Jest and react-testing-library</li>
-        <li>Absolute Imports using `@` prefix</li>
-        <li>Message convention for git</li>
-        <li>Maximize lighthouse score</li>
-        <li>GH actions</li>
-        <li>Maximize lighthouse score</li>
-        <li>Components generation with Plop and atomic design convention</li>
+        {features.map((feature) => (
+          <li key={feature}>{feature}</li>
+        ))}
       </ul>
+      <div className="hidden">
+        <h2>@t3-oss/env-nextjs</h2>
+        <span>{env.NEXT_PUBLIC_APP_DOMAIN}</span>
+      </div>
     </div>
   </div>
 );
