@@ -12,6 +12,8 @@ jobs:
   prettier-check:
     name: Prettier check
     runs-on: ubuntu-latest
+    env:
+      SKIP_ENV_VALIDATION: ${{ secrets.SKIP_ENV_VALIDATION }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -27,6 +29,8 @@ jobs:
   eslint-check:
     name: Eslint check
     runs-on: ubuntu-latest
+    env:
+      SKIP_ENV_VALIDATION: ${{ secrets.SKIP_ENV_VALIDATION }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -43,6 +47,8 @@ jobs:
     name: Tests - jest
     needs: [prettier-check, eslint-check]
     runs-on: ubuntu-latest
+    env:
+      SKIP_ENV_VALIDATION: ${{ secrets.SKIP_ENV_VALIDATION }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -61,6 +67,8 @@ jobs:
     name: Build nextjs application
     needs: [jest-check]
     runs-on: ubuntu-latest
+    env:
+      SKIP_ENV_VALIDATION: ${{ secrets.SKIP_ENV_VALIDATION }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -79,6 +87,8 @@ jobs:
     name: Build storybook application
     needs: [jest-check]
     runs-on: ubuntu-latest
+    env:
+      SKIP_ENV_VALIDATION: ${{ secrets.SKIP_ENV_VALIDATION }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3

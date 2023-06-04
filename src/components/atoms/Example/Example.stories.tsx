@@ -1,12 +1,12 @@
-import { ComponentStory, ComponentMeta } from '@storybook/react';
+import type { Meta, StoryObj } from '@storybook/react';
 
 import { Example } from '.';
 
 export default {
-  title: 'Example',
+  title: 'Atoms/Example',
   component: Example
-} as ComponentMeta<typeof Example>;
+} as Meta<typeof Example>;
 
-const Template: ComponentStory<typeof Example> = (args) => <Example {...args} />;
+type Story = StoryObj<typeof Example>;
 
-export const Default = Template.bind({});
+export const Default: Story = {};
