@@ -1,5 +1,5 @@
 import { createEnv } from '@t3-oss/env-nextjs';
-import { z } from 'zod';
+// import { z } from 'zod';
 
 const skipValidation =
   !!process.env.SKIP_ENV_VALIDATION &&
@@ -10,9 +10,9 @@ export const env = createEnv({
   skipValidation,
   server: {},
   client: {
-    NEXT_PUBLIC_APP_DOMAIN: z.string()
+    // NEXT_PUBLIC_EXAMPLE: z.string()
   },
   runtimeEnv: {
-    NEXT_PUBLIC_APP_DOMAIN: process.env.NEXT_PUBLIC_APP_DOMAIN
+    // NEXT_PUBLIC_EXAMPLE: process.env.NEXT_PUBLIC_EXAMPLE
   }
 });
