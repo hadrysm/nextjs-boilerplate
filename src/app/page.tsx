@@ -1,5 +1,3 @@
-import { env } from '@/lib/env';
-
 const features = [
   '🏎️ Next.js (app routing)',
   '🔥 Type checking TypeScript',
@@ -38,10 +36,6 @@ const HomePage = () => (
           <li key={feature}>{feature}</li>
         ))}
       </ul>
-      <div className="hidden">
-        <h2>@t3-oss/env-nextjs</h2>
-        <span>{env.NEXT_PUBLIC_APP_DOMAIN}</span>
-      </div>
     </div>
   </div>
 );
