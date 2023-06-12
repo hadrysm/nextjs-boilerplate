@@ -2218,7 +2218,7 @@
     "@storybook/client-logger" "7.0.20"
     "@storybook/manager-api" "7.0.20"
 
-"@storybook/blocks@7.0.18", "@storybook/blocks@^7.0.18":
+"@storybook/blocks@7.0.18":
   version "7.0.18"
   resolved "https://registry.yarnpkg.com/@storybook/blocks/-/blocks-7.0.18.tgz#996651ac813de2a810ba442ab77266961721d324"
   integrity sha512-HLsuzmUdVIeFXEP5v5vyjnEePRNYjzltwTjCKQhHAlt8/aQZmREiIMOfoMoAa1Rd+On8Ib2DUd2cN10VS18H8A==
@@ -2234,6 +2234,34 @@
     "@storybook/preview-api" "7.0.18"
     "@storybook/theming" "7.0.18"
     "@storybook/types" "7.0.18"
+    "@types/lodash" "^4.14.167"
+    color-convert "^2.0.1"
+    dequal "^2.0.2"
+    lodash "^4.17.21"
+    markdown-to-jsx "^7.1.8"
+    memoizerific "^1.11.3"
+    polished "^4.2.2"
+    react-colorful "^5.1.2"
+    telejson "^7.0.3"
+    ts-dedent "^2.0.0"
+    util-deprecate "^1.0.2"
+
+"@storybook/blocks@^7.0.20":
+  version "7.0.20"
+  resolved "https://registry.yarnpkg.com/@storybook/blocks/-/blocks-7.0.20.tgz#ce4abe5f16a935a8819416a006d7f3fd664f8bf8"
+  integrity sha512-DIKJ8fyuG8Lz5Anp21EZ/dKa0UhMbrRINskxUpInQZ51dgsEYc/0ENp8hm0XmbxdF58BlT8nsEIjIpCc9ZAbVQ==
+  dependencies:
+    "@storybook/channels" "7.0.20"
+    "@storybook/client-logger" "7.0.20"
+    "@storybook/components" "7.0.20"
+    "@storybook/core-events" "7.0.20"
+    "@storybook/csf" "^0.1.0"
+    "@storybook/docs-tools" "7.0.20"
+    "@storybook/global" "^5.0.0"
+    "@storybook/manager-api" "7.0.20"
+    "@storybook/preview-api" "7.0.20"
+    "@storybook/theming" "7.0.20"
+    "@storybook/types" "7.0.20"
     "@types/lodash" "^4.14.167"
     color-convert "^2.0.1"
     dequal "^2.0.2"
@@ -2414,14 +2442,14 @@
     "@storybook/client-logger" "7.0.20"
     "@storybook/preview-api" "7.0.20"
 
-"@storybook/client-logger@7.0.18", "@storybook/client-logger@^7.0.0-beta.0 || ^7.0.0-rc.0 || ^7.0.0":
+"@storybook/client-logger@7.0.18":
   version "7.0.18"
   resolved "https://registry.yarnpkg.com/@storybook/client-logger/-/client-logger-7.0.18.tgz#396858b53d0aa9485f173083ea27b7c1c48fa2dd"
   integrity sha512-uKgFdVedYoRDZBVrE1IBdWNHDFln1IxWEeI+7ZiNSQwREG9swHpU5Fa8DceclM/oLjJRuzG1jFzv+XZY8894+Q==
   dependencies:
     "@storybook/global" "^5.0.0"
 
-"@storybook/client-logger@7.0.20":
+"@storybook/client-logger@7.0.20", "@storybook/client-logger@^7.0.0-beta.0 || ^7.0.0-rc.0 || ^7.0.0":
   version "7.0.20"
   resolved "https://registry.yarnpkg.com/@storybook/client-logger/-/client-logger-7.0.20.tgz#79b53cb8576560cbb9d5e5dcaa172ec245f70cf7"
   integrity sha512-h0maWgvrhoDVALrbQ6ZFF0/7koVAazMbqWLmV/SF4JB2cBSgfgO0gmrCmKzUAe+KOABK/TMQTEQc1S1js0Dorw==
