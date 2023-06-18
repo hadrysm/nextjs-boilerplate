@@ -2442,14 +2442,14 @@
     "@storybook/client-logger" "7.0.20"
     "@storybook/preview-api" "7.0.20"
 
-"@storybook/client-logger@7.0.20", "@storybook/client-logger@^7.0.0-beta.0 || ^7.0.0-rc.0 || ^7.0.0":
+"@storybook/client-logger@7.0.20":
   version "7.0.20"
   resolved "https://registry.yarnpkg.com/@storybook/client-logger/-/client-logger-7.0.20.tgz#79b53cb8576560cbb9d5e5dcaa172ec245f70cf7"
   integrity sha512-h0maWgvrhoDVALrbQ6ZFF0/7koVAazMbqWLmV/SF4JB2cBSgfgO0gmrCmKzUAe+KOABK/TMQTEQc1S1js0Dorw==
   dependencies:
     "@storybook/global" "^5.0.0"
 
-"@storybook/client-logger@7.0.22":
+"@storybook/client-logger@7.0.22", "@storybook/client-logger@^7.0.0-beta.0 || ^7.0.0-rc.0 || ^7.0.0":
   version "7.0.22"
   resolved "https://registry.yarnpkg.com/@storybook/client-logger/-/client-logger-7.0.22.tgz#bedac324dcca8b4de128670e98204de10e761f34"
   integrity sha512-wSevZBg/yfkmoXrsC35D5JeKzATP2jOmT3SIdSfWPASKImB8gRXiJUX33mXVzzInpxu8Hsv+TuFcfxWsQGIOpw==
@@ -2510,6 +2510,14 @@
   dependencies:
     "@storybook/client-logger" "7.0.20"
     "@storybook/preview-api" "7.0.20"
+
+"@storybook/core-client@7.0.22":
+  version "7.0.22"
+  resolved "https://registry.yarnpkg.com/@storybook/core-client/-/core-client-7.0.22.tgz#ac3e298e55b592d399e50afae398aa079f471de0"
+  integrity sha512-xFidi6Eo8t2nzANavSosAG299Yr1dKluyhAsq6CTQ57/HUGERjzhmKTlXDGKKGaUyLK3TnNqT1IecAQovrmAsA==
+  dependencies:
+    "@storybook/client-logger" "7.0.22"
+    "@storybook/preview-api" "7.0.22"
 
 "@storybook/core-common@7.0.20":
   version "7.0.20"
@@ -2943,7 +2951,7 @@
   resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-7.0.22.tgz#82c9941e05261f65071a035bd0b626d6883b51e3"
   integrity sha512-AnsTQfPs7lDXhAcc6VU8Rk8dkffAe3gq+Z6Zd3FRgA7hnuyg8ccpiFTS3vjOKubfuqy0tNm0gOZnALBKlHLcRA==
 
-"@storybook/react@7.0.20", "@storybook/react@^7.0.18":
+"@storybook/react@7.0.20":
   version "7.0.20"
   resolved "https://registry.yarnpkg.com/@storybook/react/-/react-7.0.20.tgz#7d75cc6faabb8239383fce840ef70430cb3d1857"
   integrity sha512-5F7ENxlAgUMzYu8W4OThn01P5zMPg/4Th/ekeSGJvAzR8OwwNNzHG9tKmu29cz8unmQqCSxkwaC63N1nm4YaBQ==
@@ -2955,6 +2963,33 @@
     "@storybook/preview-api" "7.0.20"
     "@storybook/react-dom-shim" "7.0.20"
     "@storybook/types" "7.0.20"
+    "@types/escodegen" "^0.0.6"
+    "@types/estree" "^0.0.51"
+    "@types/node" "^16.0.0"
+    acorn "^7.4.1"
+    acorn-jsx "^5.3.1"
+    acorn-walk "^7.2.0"
+    escodegen "^2.0.0"
+    html-tags "^3.1.0"
+    lodash "^4.17.21"
+    prop-types "^15.7.2"
+    react-element-to-jsx-string "^15.0.0"
+    ts-dedent "^2.0.0"
+    type-fest "^2.19.0"
+    util-deprecate "^1.0.2"
+
+"@storybook/react@^7.0.22":
+  version "7.0.22"
+  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-7.0.22.tgz#72e02cf06123364b7a4fe6bf77316669e4aa126a"
+  integrity sha512-aZQv7wSFrny7FqamnhVFNkOOeJe+rGKfhG2IUc5+LW3g0+zqfwN3QIWq6aILau4x5XCPYTObaHX3g0HA7ZSmdA==
+  dependencies:
+    "@storybook/client-logger" "7.0.22"
+    "@storybook/core-client" "7.0.22"
+    "@storybook/docs-tools" "7.0.22"
+    "@storybook/global" "^5.0.0"
+    "@storybook/preview-api" "7.0.22"
+    "@storybook/react-dom-shim" "7.0.22"
+    "@storybook/types" "7.0.22"
     "@types/escodegen" "^0.0.6"
     "@types/estree" "^0.0.51"
     "@types/node" "^16.0.0"
