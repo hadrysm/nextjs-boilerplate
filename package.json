@@ -23,7 +23,7 @@
   "dependencies": {
     "@t3-oss/env-nextjs": "0.4.1",
     "add": "2.0.6",
-    "next": "13.4.6",
+    "next": "13.4.7",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "tailwind-merge": "1.13.2",
