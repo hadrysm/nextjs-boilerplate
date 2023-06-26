@@ -21,7 +21,7 @@
     "generate": "yarn plop --plopfile ./.plop/plopfile.js"
   },
   "dependencies": {
-    "@t3-oss/env-nextjs": "0.4.1",
+    "@t3-oss/env-nextjs": "0.6.0",
     "add": "2.0.6",
     "next": "13.4.7",
     "react": "18.2.0",
