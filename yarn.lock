@@ -2223,7 +2223,7 @@
     "@storybook/client-logger" "7.0.22"
     "@storybook/manager-api" "7.0.22"
 
-"@storybook/blocks@7.0.23", "@storybook/blocks@^7.0.23":
+"@storybook/blocks@7.0.23":
   version "7.0.23"
   resolved "https://registry.yarnpkg.com/@storybook/blocks/-/blocks-7.0.23.tgz#8030506fd2f7c84d997e0d547d75c33d646d93d8"
   integrity sha512-yhdff1m+SY90g+52745h/x6r0uDwKHoMffhjttKTSSKhsHOnvHCaslpPBHsxDxsPNGLrjUT+ueK/GSwKJUJmLA==
@@ -2239,6 +2239,34 @@
     "@storybook/preview-api" "7.0.23"
     "@storybook/theming" "7.0.23"
     "@storybook/types" "7.0.23"
+    "@types/lodash" "^4.14.167"
+    color-convert "^2.0.1"
+    dequal "^2.0.2"
+    lodash "^4.17.21"
+    markdown-to-jsx "^7.1.8"
+    memoizerific "^1.11.3"
+    polished "^4.2.2"
+    react-colorful "^5.1.2"
+    telejson "^7.0.3"
+    ts-dedent "^2.0.0"
+    util-deprecate "^1.0.2"
+
+"@storybook/blocks@^7.0.26":
+  version "7.0.26"
+  resolved "https://registry.yarnpkg.com/@storybook/blocks/-/blocks-7.0.26.tgz#662b0868ce3eb432d0cdf49c8eb95a227bb58f75"
+  integrity sha512-VNYB6Y1Ocja8HVg4Bm1w7LvqRSEc9aLVD8BnI8BInHvekvxhaxTkfpA18qds7d8+RmerrJqAUhGx0jkIB/cvwA==
+  dependencies:
+    "@storybook/channels" "7.0.26"
+    "@storybook/client-logger" "7.0.26"
+    "@storybook/components" "7.0.26"
+    "@storybook/core-events" "7.0.26"
+    "@storybook/csf" "^0.1.0"
+    "@storybook/docs-tools" "7.0.26"
+    "@storybook/global" "^5.0.0"
+    "@storybook/manager-api" "7.0.26"
+    "@storybook/preview-api" "7.0.26"
+    "@storybook/theming" "7.0.26"
+    "@storybook/types" "7.0.26"
     "@types/lodash" "^4.14.167"
     color-convert "^2.0.1"
     dequal "^2.0.2"
@@ -2751,6 +2779,19 @@
     "@storybook/core-common" "7.0.23"
     "@storybook/preview-api" "7.0.23"
     "@storybook/types" "7.0.23"
+    "@types/doctrine" "^0.0.3"
+    doctrine "^3.0.0"
+    lodash "^4.17.21"
+
+"@storybook/docs-tools@7.0.26":
+  version "7.0.26"
+  resolved "https://registry.yarnpkg.com/@storybook/docs-tools/-/docs-tools-7.0.26.tgz#6299f9da5d95a5792e223596eec2216b1ad88b15"
+  integrity sha512-Ibpm/OTR2XmJgix5w+wMYbDwN0zp5e/pcqSHy36OvkBOG588IKSSzYdBjGdTLPHWBoehp2Kyndw/5dL/09ftXA==
+  dependencies:
+    "@babel/core" "^7.12.10"
+    "@storybook/core-common" "7.0.26"
+    "@storybook/preview-api" "7.0.26"
+    "@storybook/types" "7.0.26"
     "@types/doctrine" "^0.0.3"
     doctrine "^3.0.0"
     lodash "^4.17.21"
