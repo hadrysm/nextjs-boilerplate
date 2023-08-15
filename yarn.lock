@@ -2056,6 +2056,17 @@
     slash "^3.0.0"
     write-file-atomic "^4.0.2"
 
+"@jest/types@^27.5.1":
+  version "27.5.1"
+  resolved "https://registry.yarnpkg.com/@jest/types/-/types-27.5.1.tgz#3c79ec4a8ba61c170bf937bcf9e98a9df175ec80"
+  integrity sha512-Cx46iJ9QpwQTjIdq5VJu2QTMMs3QlEjI0x1QbBP5W1+nMzyc2XmimiRR/CbX9TO0cPTeUlxWMOu8mslYsJ8DEw==
+  dependencies:
+    "@types/istanbul-lib-coverage" "^2.0.0"
+    "@types/istanbul-reports" "^3.0.0"
+    "@types/node" "*"
+    "@types/yargs" "^16.0.0"
+    chalk "^4.0.0"
+
 "@jest/types@^29.5.0", "@jest/types@^29.6.1":
   version "29.6.1"
   resolved "https://registry.yarnpkg.com/@jest/types/-/types-29.6.1.tgz#ae79080278acff0a6af5eb49d063385aaa897bf2"
@@ -2635,22 +2646,22 @@
     "@storybook/global" "^5.0.0"
     "@storybook/preview-api" "7.0.26"
 
-"@storybook/addon-interactions@^7.1.1":
-  version "7.1.1"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-interactions/-/addon-interactions-7.1.1.tgz#618a52186a47da556e62ea3a7d1132571ed728db"
-  integrity sha512-6xPDKkt0gi2aqFBFtMyWx09lEF8+o3Q+te+VY4mdJztKgHAllKvlc27jqAFYMHicG6XWio2VBZGUSrSTDOQ9IA==
+"@storybook/addon-interactions@^7.2.3":
+  version "7.2.3"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-interactions/-/addon-interactions-7.2.3.tgz#e0b0ba172116d13c3aa7084210de311b53915048"
+  integrity sha512-l4bmhLkH0qy0zrGBkiA1Mh/SCR+hIo7mzmpwybmQITm7gYB1yPunOI+psHnhwdsE+AdTjpotzMKaFmsjeGvRRA==
   dependencies:
-    "@storybook/client-logger" "7.1.1"
-    "@storybook/components" "7.1.1"
-    "@storybook/core-common" "7.1.1"
-    "@storybook/core-events" "7.1.1"
+    "@storybook/client-logger" "7.2.3"
+    "@storybook/components" "7.2.3"
+    "@storybook/core-common" "7.2.3"
+    "@storybook/core-events" "7.2.3"
     "@storybook/global" "^5.0.0"
-    "@storybook/instrumenter" "7.1.1"
-    "@storybook/manager-api" "7.1.1"
-    "@storybook/preview-api" "7.1.1"
-    "@storybook/theming" "7.1.1"
-    "@storybook/types" "7.1.1"
-    jest-mock "^29.5.0"
+    "@storybook/instrumenter" "7.2.3"
+    "@storybook/manager-api" "7.2.3"
+    "@storybook/preview-api" "7.2.3"
+    "@storybook/theming" "7.2.3"
+    "@storybook/types" "7.2.3"
+    jest-mock "^27.0.6"
     polished "^4.2.2"
     ts-dedent "^2.2.0"
 
@@ -3379,16 +3390,16 @@
   resolved "https://registry.yarnpkg.com/@storybook/icons/-/icons-1.1.6.tgz#22536cde6dd85fa259608fa8bd7b9eeca2a8e688"
   integrity sha512-co5gDCYPojRAc5lRMnWxbjrR1V37/rTmAo9Vok4a1hDpHZIwkGTWesdzvYivSQXYFxZTpxdM1b5K3W87brnahw==
 
-"@storybook/instrumenter@7.1.1":
-  version "7.1.1"
-  resolved "https://registry.yarnpkg.com/@storybook/instrumenter/-/instrumenter-7.1.1.tgz#fdb3769a7c2517b2e9100ba6d76ed0efffe4ac6c"
-  integrity sha512-c6m6TnOGlzcmC22DnydoxSilP5O6ZIknrTarfMme/qBW4V95eK5vTpvuL9HChOBbISSrFR8bBCanm1joJ+Y8CA==
+"@storybook/instrumenter@7.2.3":
+  version "7.2.3"
+  resolved "https://registry.yarnpkg.com/@storybook/instrumenter/-/instrumenter-7.2.3.tgz#1e8f130c388ad93121ca6888c14b6aa395f086c7"
+  integrity sha512-OimpXBKrwuWu17eSE23c7GLkGRq5PpVyH4EetwQT+nuhsUM+MeOWf1+LnT7FgLkcpH50T46sTeD+bgYZo1/s2Q==
   dependencies:
-    "@storybook/channels" "7.1.1"
-    "@storybook/client-logger" "7.1.1"
-    "@storybook/core-events" "7.1.1"
+    "@storybook/channels" "7.2.3"
+    "@storybook/client-logger" "7.2.3"
+    "@storybook/core-events" "7.2.3"
     "@storybook/global" "^5.0.0"
-    "@storybook/preview-api" "7.1.1"
+    "@storybook/preview-api" "7.2.3"
 
 "@storybook/manager-api@7.0.26":
   version "7.0.26"
@@ -4339,6 +4350,13 @@
   version "21.0.0"
   resolved "https://registry.yarnpkg.com/@types/yargs-parser/-/yargs-parser-21.0.0.tgz#0c60e537fa790f5f9472ed2776c2b71ec117351b"
   integrity sha512-iO9ZQHkZxHn4mSakYV0vFHAVDyEOIJQrV2uZ06HxEPcx+mt8swXoZHIbaaJ2crJYFfErySgktuTZ3BeLz+XmFA==
+
+"@types/yargs@^16.0.0":
+  version "16.0.5"
+  resolved "https://registry.yarnpkg.com/@types/yargs/-/yargs-16.0.5.tgz#12cc86393985735a283e387936398c2f9e5f88e3"
+  integrity sha512-AxO/ADJOBFJScHbWhq2xAhlWP24rY4aCEG/NFaMvbT3X2MgRsLjhjQwsn0Zi5zn0LG9jUhCCZMeX9Dkuw6k+vQ==
+  dependencies:
+    "@types/yargs-parser" "*"
 
 "@types/yargs@^17.0.8":
   version "17.0.24"
@@ -8698,7 +8716,15 @@ jest-message-util@^29.6.2:
     slash "^3.0.0"
     stack-utils "^2.0.3"
 
-jest-mock@^29.5.0, jest-mock@^29.6.2:
+jest-mock@^27.0.6:
+  version "27.5.1"
+  resolved "https://registry.yarnpkg.com/jest-mock/-/jest-mock-27.5.1.tgz#19948336d49ef4d9c52021d34ac7b5f36ff967d6"
+  integrity sha512-K4jKbY1d4ENhbrG2zuPWaQBvDly+iZ2yAW+T1fATN78hc0sInwn7wZB8XtlNnvHug5RMwV897Xm4LqmPM4e2Og==
+  dependencies:
+    "@jest/types" "^27.5.1"
+    "@types/node" "*"
+
+jest-mock@^29.6.2:
   version "29.6.2"
   resolved "https://registry.yarnpkg.com/jest-mock/-/jest-mock-29.6.2.tgz#ef9c9b4d38c34a2ad61010a021866dad41ce5e00"
   integrity sha512-hoSv3lb3byzdKfwqCuT6uTscan471GUECqgNYykg6ob0yiAw3zYc7OrPnI9Qv8Wwoa4lC7AZ9hyS4AiIx5U2zg==
