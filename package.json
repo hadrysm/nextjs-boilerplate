@@ -65,7 +65,7 @@
     "pinst": "3.0.0",
     "plop": "3.1.2",
     "postcss": "8.4.27",
-    "prettier": "2.8.8",
+    "prettier": "3.0.2",
     "prettier-plugin-tailwindcss": "0.4.1",
     "storybook": "^7.3.1",
     "tailwind-scrollbar": "3.0.5",
