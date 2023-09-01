@@ -7196,10 +7196,10 @@ eslint-plugin-storybook@0.6.13:
     requireindex "^1.1.0"
     ts-dedent "^2.2.0"
 
-eslint-plugin-testing-library@6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-6.0.0.tgz#b4869760dc40786859cef43d9b90dacb98273c92"
-  integrity sha512-SHeisSxG1f6UV2wKdMuQBiTTmGEQ858H7LMyz1LG+30TxPQEcXXQauC4E6sfEdcrJ/nIOUxNmlFZdlL6PNK4mg==
+eslint-plugin-testing-library@6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-6.0.1.tgz#c92325341f01fb2f76a3ab1c70d3c0c968c70b11"
+  integrity sha512-CEYtjpcF3hAaQtYsTZqciR7s5z+T0LCMTwJeW+pz6kBnGtc866wAKmhaiK2Gsjc2jWNP7Gt6zhNr2DE1ZW4e+g==
   dependencies:
     "@typescript-eslint/utils" "^5.58.0"
 
@@ -12303,13 +12303,6 @@ tar@^6.1.13:
     yallist "^4.0.0"
 
 telejson@^7.0.3, telejson@^7.2.0:
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/telejson/-/telejson-7.2.0.tgz#3994f6c9a8f8d7f2dba9be2c7c5bbb447e876f32"
-  integrity sha512-1QTEcJkJEhc8OnStBx/ILRu5J2p0GjvWsBx56bmZRqnrkdBMUe+nX92jxV+p3dB4CP6PZCdJMQJwCggkNBMzkQ==
-  dependencies:
-    memoizerific "^1.11.3"
-
-telejson@^7.2.0:
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/telejson/-/telejson-7.2.0.tgz#3994f6c9a8f8d7f2dba9be2c7c5bbb447e876f32"
   integrity sha512-1QTEcJkJEhc8OnStBx/ILRu5J2p0GjvWsBx56bmZRqnrkdBMUe+nX92jxV+p3dB4CP6PZCdJMQJwCggkNBMzkQ==
