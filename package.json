@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.0.26",
-    "@storybook/addon-interactions": "^7.3.1",
+    "@storybook/addon-interactions": "^7.4.0",
     "@storybook/addon-links": "^7.3.2",
     "@storybook/blocks": "^7.4.0",
     "@storybook/nextjs": "^7.2.3",
