@@ -2934,22 +2934,22 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/blocks@^7.4.0":
-  version "7.4.0"
-  resolved "https://registry.yarnpkg.com/@storybook/blocks/-/blocks-7.4.0.tgz#6a9240e2b58bac99a998c559d719be7ff4e19dcc"
-  integrity sha512-YQznNjJm+l32fCfPxrZso9+MbcyG0pWZSpx3RKI1+pxDMsAs4mbXsIw4//jKfjoDP/6/Cz/FJcSx8LT7i4BJ2w==
+"@storybook/blocks@^7.4.1":
+  version "7.4.1"
+  resolved "https://registry.yarnpkg.com/@storybook/blocks/-/blocks-7.4.1.tgz#42a20ed78f9fbf7e698beb184ea0fee3602bb75d"
+  integrity sha512-allNTTuFcFK/DzGGQqFGPu/bH53wjM7lO9m/yHBtJv8Mi1aP745JqW0ucJMVb/aO2Y8vjkTIVa+meVIl02bfrg==
   dependencies:
-    "@storybook/channels" "7.4.0"
-    "@storybook/client-logger" "7.4.0"
-    "@storybook/components" "7.4.0"
-    "@storybook/core-events" "7.4.0"
+    "@storybook/channels" "7.4.1"
+    "@storybook/client-logger" "7.4.1"
+    "@storybook/components" "7.4.1"
+    "@storybook/core-events" "7.4.1"
     "@storybook/csf" "^0.1.0"
-    "@storybook/docs-tools" "7.4.0"
+    "@storybook/docs-tools" "7.4.1"
     "@storybook/global" "^5.0.0"
-    "@storybook/manager-api" "7.4.0"
-    "@storybook/preview-api" "7.4.0"
-    "@storybook/theming" "7.4.0"
-    "@storybook/types" "7.4.0"
+    "@storybook/manager-api" "7.4.1"
+    "@storybook/preview-api" "7.4.1"
+    "@storybook/theming" "7.4.1"
+    "@storybook/types" "7.4.1"
     "@types/lodash" "^4.14.167"
     color-convert "^2.0.1"
     dequal "^2.0.2"
@@ -3182,6 +3182,22 @@
     "@storybook/global" "^5.0.0"
     "@storybook/theming" "7.4.0"
     "@storybook/types" "7.4.0"
+    memoizerific "^1.11.3"
+    use-resize-observer "^9.1.0"
+    util-deprecate "^1.0.2"
+
+"@storybook/components@7.4.1":
+  version "7.4.1"
+  resolved "https://registry.yarnpkg.com/@storybook/components/-/components-7.4.1.tgz#6355018226d245c6c8b33a75e9027a0bc6681f63"
+  integrity sha512-hCuKmMB0+d3/apHjC8G0vMks1cE1aeoKu09gQ40YT+cBxKWj2+lNVKxDd6wJpaR6bU/wrAL1S6eaIQ/T9QpqRA==
+  dependencies:
+    "@radix-ui/react-select" "^1.2.2"
+    "@radix-ui/react-toolbar" "^1.0.4"
+    "@storybook/client-logger" "7.4.1"
+    "@storybook/csf" "^0.1.0"
+    "@storybook/global" "^5.0.0"
+    "@storybook/theming" "7.4.1"
+    "@storybook/types" "7.4.1"
     memoizerific "^1.11.3"
     use-resize-observer "^9.1.0"
     util-deprecate "^1.0.2"
