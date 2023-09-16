@@ -2943,22 +2943,22 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/blocks@^7.4.0":
-  version "7.4.0"
-  resolved "https://registry.yarnpkg.com/@storybook/blocks/-/blocks-7.4.0.tgz#6a9240e2b58bac99a998c559d719be7ff4e19dcc"
-  integrity sha512-YQznNjJm+l32fCfPxrZso9+MbcyG0pWZSpx3RKI1+pxDMsAs4mbXsIw4//jKfjoDP/6/Cz/FJcSx8LT7i4BJ2w==
+"@storybook/blocks@^7.4.2":
+  version "7.4.2"
+  resolved "https://registry.yarnpkg.com/@storybook/blocks/-/blocks-7.4.2.tgz#6a4307323eeb1bf49a13050942d6e8c00e928e41"
+  integrity sha512-ijuZBsYfQBuwMA8Lb1dT6t2PzqhkOtIdc+G5iQ/IgWLX5HT1br+Wq8o3TUWrqACM9VKIASnJk13FMAOeGggD/w==
   dependencies:
-    "@storybook/channels" "7.4.0"
-    "@storybook/client-logger" "7.4.0"
-    "@storybook/components" "7.4.0"
-    "@storybook/core-events" "7.4.0"
+    "@storybook/channels" "7.4.2"
+    "@storybook/client-logger" "7.4.2"
+    "@storybook/components" "7.4.2"
+    "@storybook/core-events" "7.4.2"
     "@storybook/csf" "^0.1.0"
-    "@storybook/docs-tools" "7.4.0"
+    "@storybook/docs-tools" "7.4.2"
     "@storybook/global" "^5.0.0"
-    "@storybook/manager-api" "7.4.0"
-    "@storybook/preview-api" "7.4.0"
-    "@storybook/theming" "7.4.0"
-    "@storybook/types" "7.4.0"
+    "@storybook/manager-api" "7.4.2"
+    "@storybook/preview-api" "7.4.2"
+    "@storybook/theming" "7.4.2"
+    "@storybook/types" "7.4.2"
     "@types/lodash" "^4.14.167"
     color-convert "^2.0.1"
     dequal "^2.0.2"
@@ -3518,18 +3518,6 @@
     "@storybook/core-common" "7.0.26"
     "@storybook/preview-api" "7.0.26"
     "@storybook/types" "7.0.26"
-    "@types/doctrine" "^0.0.3"
-    doctrine "^3.0.0"
-    lodash "^4.17.21"
-
-"@storybook/docs-tools@7.4.0":
-  version "7.4.0"
-  resolved "https://registry.yarnpkg.com/@storybook/docs-tools/-/docs-tools-7.4.0.tgz#d9109c9c8ec4e90bb24d1acfcc16834a252618eb"
-  integrity sha512-DzXmt4JorAOePoS+sjQznf8jLPI9D5mdB1eSXjfvmGBQyyehKTZv5+TXuxYvT3iPN4rW4OPrIrQCSIrbULFdwA==
-  dependencies:
-    "@storybook/core-common" "7.4.0"
-    "@storybook/preview-api" "7.4.0"
-    "@storybook/types" "7.4.0"
     "@types/doctrine" "^0.0.3"
     doctrine "^3.0.0"
     lodash "^4.17.21"
