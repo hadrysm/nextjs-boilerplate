@@ -34,7 +34,7 @@
     "@storybook/addon-interactions": "^7.4.3",
     "@storybook/addon-links": "^7.4.2",
     "@storybook/blocks": "^7.4.3",
-    "@storybook/nextjs": "^7.4.2",
+    "@storybook/nextjs": "^7.4.5",
     "@storybook/react": "^7.4.5",
     "@storybook/testing-library": "^0.2.0",
     "@testing-library/jest-dom": "5.17.0",
