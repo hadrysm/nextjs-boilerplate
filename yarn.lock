@@ -3234,6 +3234,14 @@
     "@storybook/client-logger" "7.5.0"
     "@storybook/preview-api" "7.5.0"
 
+"@storybook/core-client@7.5.1":
+  version "7.5.1"
+  resolved "https://registry.yarnpkg.com/@storybook/core-client/-/core-client-7.5.1.tgz#06bc3711767fa131800d1a0827dd120e89019ccd"
+  integrity sha512-K651UnNKkW8U078CH5rcUqf0siGcfEhwya2yQN5RBb/H78HSLBLdYgzKqxaKtmz+S8DFyWhrgbXZLdBjavozJg==
+  dependencies:
+    "@storybook/client-logger" "7.5.1"
+    "@storybook/preview-api" "7.5.1"
+
 "@storybook/core-common@7.0.26":
   version "7.0.26"
   resolved "https://registry.yarnpkg.com/@storybook/core-common/-/core-common-7.0.26.tgz#9b3f3378e80fe981a48d268edb560a440128629d"
@@ -3842,7 +3850,12 @@
   resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-7.5.0.tgz#074f1d0642d7e0a1d5ac62e924511fd059c051e3"
   integrity sha512-OzJhXg1En/9D9vKvD2t0EcYcuHFzrLTA9kEUWt/eP3Ww41kndfJoZca33JZr17iuKksVAZ8ucETMnkL3yO+ybA==
 
-"@storybook/react@7.5.0", "@storybook/react@^7.4.6":
+"@storybook/react-dom-shim@7.5.1":
+  version "7.5.1"
+  resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-7.5.1.tgz#1dd868782f2ed52828691a221b0f9e99f5427ef8"
+  integrity sha512-bzTIfLm91O9h3rPYJLtRbmsPARerY3z7MoyvadGp8TikvIvf+WyT/vHujw+20SxnqiZVq5Jv65FFlxc46GGB1Q==
+
+"@storybook/react@7.5.0":
   version "7.5.0"
   resolved "https://registry.yarnpkg.com/@storybook/react/-/react-7.5.0.tgz#eb67b6a770dce8ea025829a18fbdd31d022bf0e5"
   integrity sha512-1oD8sYqBZwtfBKR8zZqfhjRong4wN/4PLYMzs5wl4kYugNOeauD8zWSztnIorxzDrl2yjpwnWlRy9wXN/8FI8g==
@@ -3854,6 +3867,33 @@
     "@storybook/preview-api" "7.5.0"
     "@storybook/react-dom-shim" "7.5.0"
     "@storybook/types" "7.5.0"
+    "@types/escodegen" "^0.0.6"
+    "@types/estree" "^0.0.51"
+    "@types/node" "^18.0.0"
+    acorn "^7.4.1"
+    acorn-jsx "^5.3.1"
+    acorn-walk "^7.2.0"
+    escodegen "^2.1.0"
+    html-tags "^3.1.0"
+    lodash "^4.17.21"
+    prop-types "^15.7.2"
+    react-element-to-jsx-string "^15.0.0"
+    ts-dedent "^2.0.0"
+    type-fest "~2.19"
+    util-deprecate "^1.0.2"
+
+"@storybook/react@^7.5.1":
+  version "7.5.1"
+  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-7.5.1.tgz#56227f2dbb7c3a5fafc7f3e61a3e4268ec1c5fde"
+  integrity sha512-IG97c30fFSmPyGpJ1awHC/+9XnCTqleeOQwROXjroMHSm8m/JTWpHMVLyM1x7b6VAnBhNHWJ+oXLZe/hXkXfpA==
+  dependencies:
+    "@storybook/client-logger" "7.5.1"
+    "@storybook/core-client" "7.5.1"
+    "@storybook/docs-tools" "7.5.1"
+    "@storybook/global" "^5.0.0"
+    "@storybook/preview-api" "7.5.1"
+    "@storybook/react-dom-shim" "7.5.1"
+    "@storybook/types" "7.5.1"
     "@types/escodegen" "^0.0.6"
     "@types/estree" "^0.0.51"
     "@types/node" "^18.0.0"
