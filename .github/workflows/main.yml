@@ -17,10 +17,14 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-      - name: Setup node
+      - name: Setup pnpm
         uses: pnpm/action-setup@v2
         with:
           version: 8.10.2
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
       - name: Install dependencies
         run: pnpm install
       - name: Run prettier check
@@ -34,10 +38,14 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-      - name: Setup node
+      - name: Setup pnpm
         uses: pnpm/action-setup@v2
         with:
           version: 8.10.2
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
       - name: Install dependencies
         run: pnpm install
       - name: Run eslint check
@@ -52,10 +60,14 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-      - name: Setup node
+      - name: Setup pnpm
         uses: pnpm/action-setup@v2
         with:
           version: 8.10.2
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
       - name: Install dependencies
         run: pnpm install
       - name: Run tests
@@ -72,10 +84,14 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-      - name: Setup node
+      - name: Setup pnpm
         uses: pnpm/action-setup@v2
         with:
           version: 8.10.2
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
       - name: Install dependencies
         run: pnpm install
       - name: Build nextjs
@@ -92,10 +108,14 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-      - name: Setup node
+      - name: Setup pnpm
         uses: pnpm/action-setup@v2
         with:
           version: 8.10.2
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
       - name: Install dependencies
         run: pnpm install
       - name: Build storybook
