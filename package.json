@@ -18,12 +18,12 @@
     "storybook": "storybook dev -p 6006",
     "storybook:build": "storybook build",
     "postinstall": "husky install",
-    "generate": "yarn plop --plopfile ./.plop/plopfile.js"
+    "generate": "pnpm plop --plopfile ./.plop/plopfile.js"
   },
   "engines": {
     "node": ">=18.17.1"
   },
-  "packageManager": "yarn@1.22.19",
+  "packageManager": "pnpm@8.10.2",
   "dependencies": {
     "@t3-oss/env-nextjs": "0.7.1",
     "clsx": "2.0.0",
