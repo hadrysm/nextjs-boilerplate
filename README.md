@@ -40,7 +40,7 @@ All tests are collocated with the source code inside the same directory. So, it 
 To use this template you can simply click in **[Use this template](https://github.com/hadrysm/nextjs-boilerplate/generate)** or create your Next.js app based on this template by running:
 
 ```bash
-yarn create next-app -e https://github.com/hadrysm/nextjs-boilerplate
+pnpm create next-app -e https://github.com/hadrysm/nextjs-boilerplate
 ```
 
 ## 🚀 Deploy to production
