@@ -48,17 +48,17 @@ yarn create next-app -e https://github.com/hadrysm/nextjs-boilerplate
 You can see the results locally in production mode with:
 
 ```shell
-yarn build
+pnpm build
 ```
 
 ```shell
-yarn start
+pnpm start
 ```
 
 ## :gear: Generating components
 
 ```bash
-yarn generate Button
+pnpm generate Button
 ```
 
 Result (if you chose an atom component):

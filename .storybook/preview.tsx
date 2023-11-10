@@ -4,13 +4,6 @@ import * as NextImage from 'next/image';
 
 import '../src/styles/globals.css';
 
-const OriginalNextImage = NextImage.default;
-
-Object.defineProperty(NextImage, 'default', {
-  configurable: true,
-  value: (props) => <OriginalNextImage {...props} unoptimized />
-});
-
 const preview: Preview = {
   parameters: {
     actions: { argTypesRegex: '^on[A-Z].*' },

@@ -1,11 +1,18 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { Example } from '.';
+import { Example } from './Example';
 
-export default {
-  title: 'Atoms/Example',
-  component: Example
-} as Meta<typeof Example>;
+const meta: Meta<typeof Example> = {
+  title: 'toms/Example',
+  component: Example,
+  tags: ['autodocs'],
+  args: {
+    children: 'Example',
+    variant: 'default'
+  }
+};
+
+export default meta;
 
 type Story = StoryObj<typeof Example>;
 
