@@ -18,9 +18,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
       - name: Setup node
-        uses: actions/setup-node@v3
+        uses: pnpm/action-setup@v2
         with:
-          node-version: 18
+          version: 8.10.2
       - name: Install dependencies
         run: pnpm install
       - name: Run prettier check
@@ -35,9 +35,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
       - name: Setup node
-        uses: actions/setup-node@v3
+        uses: pnpm/action-setup@v2
         with:
-          node-version: 18
+          version: 8.10.2
       - name: Install dependencies
         run: pnpm install
       - name: Run eslint check
@@ -53,9 +53,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
       - name: Setup node
-        uses: actions/setup-node@v3
+        uses: pnpm/action-setup@v2
         with:
-          node-version: 18
+          version: 8.10.2
       - name: Install dependencies
         run: pnpm install
       - name: Run tests
@@ -73,9 +73,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
       - name: Setup node
-        uses: actions/setup-node@v3
+        uses: pnpm/action-setup@v2
         with:
-          node-version: 18
+          version: 8.10.2
       - name: Install dependencies
         run: pnpm install
       - name: Build nextjs
@@ -93,9 +93,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
       - name: Setup node
-        uses: actions/setup-node@v3
+        uses: pnpm/action-setup@v2
         with:
-          node-version: 18
+          version: 8.10.2
       - name: Install dependencies
         run: pnpm install
       - name: Build storybook
