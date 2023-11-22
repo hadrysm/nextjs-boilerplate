@@ -107,8 +107,8 @@ devDependencies:
     specifier: 0.6.15
     version: 0.6.15(eslint@8.54.0)(typescript@5.3.2)
   eslint-plugin-testing-library:
-    specifier: 6.1.2
-    version: 6.1.2(eslint@8.54.0)(typescript@5.3.2)
+    specifier: 6.2.0
+    version: 6.2.0(eslint@8.54.0)(typescript@5.3.2)
   husky:
     specifier: 8.0.3
     version: 8.0.3
@@ -7211,8 +7211,8 @@ packages:
       - typescript
     dev: true
 
-  /eslint-plugin-testing-library@6.1.2(eslint@8.54.0)(typescript@5.3.2):
-    resolution: {integrity: sha512-Ra16FeBlonfbScOIdZEta9o+OxtwDqiUt+4UCpIM42TuatyLdtfU/SbwnIzPcAszrbl58PGwyZ9YGU9dwIo/tA==}
+  /eslint-plugin-testing-library@6.2.0(eslint@8.54.0)(typescript@5.3.2):
+    resolution: {integrity: sha512-+LCYJU81WF2yQ+Xu4A135CgK8IszcFcyMF4sWkbiu6Oj+Nel0TrkZq/HvDw0/1WuO3dhDQsZA/OpEMGd0NfcUw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0, npm: '>=6'}
     peerDependencies:
       eslint: ^7.5.0 || ^8.0.0
