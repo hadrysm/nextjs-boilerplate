@@ -147,10 +147,10 @@ devDependencies:
     version: 7.6.5
   tailwind-scrollbar:
     specifier: 3.0.5
-    version: 3.0.5(tailwindcss@3.3.6)
+    version: 3.0.5(tailwindcss@3.3.7)
   tailwindcss:
-    specifier: 3.3.6
-    version: 3.3.6
+    specifier: 3.3.7
+    version: 3.3.7
   typescript:
     specifier: 5.3.3
     version: 5.3.3
@@ -12436,17 +12436,17 @@ packages:
       '@babel/runtime': 7.23.6
     dev: false
 
-  /tailwind-scrollbar@3.0.5(tailwindcss@3.3.6):
+  /tailwind-scrollbar@3.0.5(tailwindcss@3.3.7):
     resolution: {integrity: sha512-0ZwxTivevqq9BY9fRP9zDjHl7Tu+J5giBGbln+0O1R/7nHtBUKnjQcA1aTIhK7Oyjp6Uc/Dj6/dn8Dq58k5Uww==}
     engines: {node: '>=12.13.0'}
     peerDependencies:
       tailwindcss: 3.x
     dependencies:
-      tailwindcss: 3.3.6
+      tailwindcss: 3.3.7
     dev: true
 
-  /tailwindcss@3.3.6:
-    resolution: {integrity: sha512-AKjF7qbbLvLaPieoKeTjG1+FyNZT6KaJMJPFeQyLfIp7l82ggH1fbHJSsYIvnbTFQOlkh+gBYpyby5GT1LIdLw==}
+  /tailwindcss@3.3.7:
+    resolution: {integrity: sha512-pjgQxDZPvyS/nG3ZYkyCvsbONJl7GdOejfm24iMt2ElYQQw8Jc4p0m8RdMp7mznPD0kUhfzwV3zAwa80qI0zmQ==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:

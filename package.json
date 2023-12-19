@@ -74,7 +74,7 @@
     "prettier-plugin-tailwindcss": "0.5.9",
     "storybook": "^7.6.5",
     "tailwind-scrollbar": "3.0.5",
-    "tailwindcss": "3.3.6",
+    "tailwindcss": "3.3.7",
     "typescript": "5.3.3"
   },
   "lint-staged": {
