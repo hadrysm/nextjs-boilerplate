@@ -34,7 +34,7 @@
     "zod": "3.22.4"
   },
   "devDependencies": {
-    "@storybook/addon-essentials": "^7.6.4",
+    "@storybook/addon-essentials": "^7.6.5",
     "@storybook/addon-interactions": "^7.6.4",
     "@storybook/addon-links": "^7.6.5",
     "@storybook/blocks": "^7.6.4",
