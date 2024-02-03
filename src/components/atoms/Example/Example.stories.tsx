@@ -7,8 +7,7 @@ const meta: Meta<typeof Example> = {
   component: Example,
   tags: ['autodocs'],
   args: {
-    children: 'Example',
-    variant: 'default'
+    children: 'Example'
   }
 };
 
