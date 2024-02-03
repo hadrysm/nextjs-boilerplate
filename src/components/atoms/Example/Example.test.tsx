@@ -4,7 +4,7 @@ import { Example } from '.';
 
 describe('Example', () => {
   it('should render the heading', () => {
-    render(<Example />);
+    render(<Example>Example</Example>);
 
     // Assert
     screen.getByRole('heading', { name: /Example/i });
