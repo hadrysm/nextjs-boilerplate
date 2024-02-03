@@ -82,7 +82,7 @@ Result (if you chose an atom component):
 
 ## License
 
-Licensed under the MIT License, Copyright © 2022
+Licensed under the MIT License, Copyright © 2024
 
 See [LICENSE](LICENSE) for more information.
 
