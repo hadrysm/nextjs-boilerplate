@@ -29,7 +29,7 @@ export const MainLayout = ({ children, className }: MainLayoutProps) => {
         </ul>
       </header>
       <main className="flex-1">{children}</main>
-      <footer className="flex items-center justify-center p-4">© Hadrysm Copyright 2023</footer>
+      <footer className="flex items-center justify-center p-4">© Hadrysm Copyright 2024</footer>
     </div>
   );
 };

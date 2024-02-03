@@ -35,7 +35,7 @@ const HomePage = () => (
         {featuresItems.map(({ icon, name }) => (
           <li
             key={name}
-            className="flex flex-col text-center items-center hover:scale-105 transition-all hover:shadow-xl justify-center gap-2 px-4 py-6 border rounded-lg shadow"
+            className="flex flex-col text-center items-center hover:scale-105 transition-all hover:shadow-xl duration-300 justify-center gap-2 px-4 py-6 border rounded-lg shadow"
           >
             <span className="text-xl">{icon}</span>
             <span>{name}</span>
