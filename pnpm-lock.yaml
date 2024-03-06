@@ -86,8 +86,8 @@ devDependencies:
     specifier: 8.56.0
     version: 8.56.0
   eslint-config-next:
-    specifier: 14.1.0
-    version: 14.1.0(eslint@8.56.0)(typescript@5.3.3)
+    specifier: 14.1.2
+    version: 14.1.2(eslint@8.56.0)(typescript@5.3.3)
   eslint-config-prettier:
     specifier: 9.1.0
     version: 9.1.0(eslint@8.56.0)
@@ -2147,8 +2147,8 @@ packages:
   /@next/env@14.1.2:
     resolution: {integrity: sha512-U0iEG+JF86j6qyu330sfPgsMmDVH8vWVmzZadl+an5EU3o5HqdNytOpM+HsFpl58PmhGBTKx3UmM9c+eoLK0mA==}
 
-  /@next/eslint-plugin-next@14.1.0:
-    resolution: {integrity: sha512-x4FavbNEeXx/baD/zC/SdrvkjSby8nBn8KcCREqk6UuwvwoAPZmaV8TFCAuo/cpovBRTIY67mHhe86MQQm/68Q==}
+  /@next/eslint-plugin-next@14.1.2:
+    resolution: {integrity: sha512-k9h9NfR1joJI48uwdQd/DuOV1mBgcjlmWaX45eAXCFGT96oc+/6SMjO3s7naVtTXqSKjFAgk2GDlW6Hv41ROXQ==}
     dependencies:
       glob: 10.3.10
     dev: true
@@ -5272,7 +5272,7 @@ packages:
     resolution: {integrity: sha512-LPuwb2P+NrQw3XhxGc36+XSvuBPopovXYTR9Ew++Du9Yb/bx5AzBfrIsBoj0EZUifjQU+sHL21sseZ3jerWO/A==}
     dependencies:
       call-bind: 1.0.6
-      is-array-buffer: 3.0.2
+      is-array-buffer: 3.0.4
     dev: true
 
   /array-each@1.0.1:
@@ -5355,7 +5355,7 @@ packages:
       define-properties: 1.2.1
       es-abstract: 1.22.3
       get-intrinsic: 1.2.4
-      is-array-buffer: 3.0.2
+      is-array-buffer: 3.0.4
       is-shared-array-buffer: 1.0.2
     dev: true
 
@@ -6961,7 +6961,7 @@ packages:
       has-symbols: 1.0.3
       hasown: 2.0.0
       internal-slot: 1.0.6
-      is-array-buffer: 3.0.2
+      is-array-buffer: 3.0.4
       is-callable: 1.2.7
       is-negative-zero: 2.0.2
       is-regex: 1.1.4
@@ -7136,8 +7136,8 @@ packages:
       source-map: 0.6.1
     dev: true
 
-  /eslint-config-next@14.1.0(eslint@8.56.0)(typescript@5.3.3):
-    resolution: {integrity: sha512-SBX2ed7DoRFXC6CQSLc/SbLY9Ut6HxNB2wPTcoIWjUMd7aF7O/SIE7111L8FdZ9TXsNV4pulUDnfthpyPtbFUg==}
+  /eslint-config-next@14.1.2(eslint@8.56.0)(typescript@5.3.3):
+    resolution: {integrity: sha512-g46mlgWmHoWhHuDbaQS8PLNQtBkVkiQMnVLhFcqnPSXN2I+R4Obom3ihCIQuNLbjVUgiFFHqmEwwtDuWv1wYKA==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0
       typescript: '>=3.3.1'
@@ -7145,7 +7145,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@next/eslint-plugin-next': 14.1.0
+      '@next/eslint-plugin-next': 14.1.2
       '@rushstack/eslint-patch': 1.7.2
       '@typescript-eslint/parser': 6.21.0(eslint@8.56.0)(typescript@5.3.3)
       eslint: 8.56.0
@@ -8628,14 +8628,6 @@ packages:
     dependencies:
       call-bind: 1.0.6
       has-tostringtag: 1.0.2
-    dev: true
-
-  /is-array-buffer@3.0.2:
-    resolution: {integrity: sha512-y+FyyR/w8vfIRq4eQcM1EYgSTnmHXPqaF+IgzgraytCFq5Xh8lllDVmAZolPJiZttZLeFSINPYMaEJ7/vWUa1w==}
-    dependencies:
-      call-bind: 1.0.6
-      get-intrinsic: 1.2.4
-      is-typed-array: 1.1.13
     dev: true
 
   /is-array-buffer@3.0.4:
