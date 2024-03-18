@@ -69,7 +69,7 @@
     "lint-staged": "15.2.2",
     "pinst": "3.0.0",
     "plop": "4.0.1",
-    "postcss": "8.4.35",
+    "postcss": "8.4.36",
     "prettier": "3.2.5",
     "prettier-plugin-tailwindcss": "0.5.12",
     "storybook": "^7.6.17",
