@@ -45,6 +45,12 @@ pnpm create next-app -e https://github.com/hadrysm/nextjs-boilerplate
 
 ## 🚀 Deploy to production
 
+Install command on Vercel:
+
+```
+corepack use pnpm@`pnpm -v` && pnpm i
+```
+
 You can see the results locally in production mode with:
 
 ```shell
