@@ -21,7 +21,7 @@
     "generate": "pnpm plop --plopfile ./.plop/plopfile.js"
   },
   "engines": {
-    "node": ">=18.17.1"
+    "node": ">=18.20.2"
   },
   "packageManager": "pnpm@9.1.1",
   "dependencies": {
