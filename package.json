@@ -31,7 +31,7 @@
     "react": "18.3.1",
     "react-dom": "18.2.0",
     "tailwind-merge": "2.2.2",
-    "zod": "3.22.4"
+    "zod": "3.23.8"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^8.1.1",
