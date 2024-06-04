@@ -70,7 +70,7 @@
     "pinst": "3.0.0",
     "plop": "4.0.1",
     "postcss": "8.4.38",
-    "prettier": "3.2.5",
+    "prettier": "3.3.0",
     "prettier-plugin-tailwindcss": "0.6.0",
     "storybook": "^8.1.5",
     "tailwind-scrollbar": "3.1.0",
