@@ -142,8 +142,8 @@ importers:
         specifier: 3.2.5
         version: 3.2.5
       prettier-plugin-tailwindcss:
-        specifier: 0.6.1
-        version: 0.6.1(prettier@3.2.5)
+        specifier: 0.6.2
+        version: 0.6.2(prettier@3.2.5)
       storybook:
         specifier: ^8.1.6
         version: 8.1.6(@babel/preset-env@7.24.5(@babel/core@7.24.5))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -1624,9 +1624,6 @@ packages:
   '@storybook/channels@8.1.4':
     resolution: {integrity: sha512-cmITS0w8e9Ys1vqp8S7+uyQKgqVIdUEWs9FK90XeAs0lcuvW10S3qdrarWPbUgKFFFsGIGPIvImbT1vf80/bcQ==}
 
-  '@storybook/channels@8.1.5':
-    resolution: {integrity: sha512-R+puP4tWYzQUbpIp8sX6U5oI+ZUevVOaFxXGaAN3PRXjIRC38oKTVWzj/G6GdziVFzN6rDn+JsYPmiRMYo1sYg==}
-
   '@storybook/channels@8.1.6':
     resolution: {integrity: sha512-CzDnP6qfI8OC8pGUk+wPUzLPYcKhX8XbriF2gBtwl6qVM8YfkHP2mLTiDYDwBIi0rLuUbSm/SpILXQ/ouOHOGw==}
 
@@ -1639,9 +1636,6 @@ packages:
 
   '@storybook/client-logger@8.1.4':
     resolution: {integrity: sha512-I0PqDoNZf4rqrJYwFHhCwuXumpxvzyTzI5qI5R2JT93i49QShI3pLXY31C9VemVBJmS+pBWVOm6RTIdkQiKVWw==}
-
-  '@storybook/client-logger@8.1.5':
-    resolution: {integrity: sha512-zd+aENXnOHsxBATppELmhw/UywLzCxQjz/8i/xkUjeTRB4Ggp0hJlOUdJUEdIJz631ydyytfvM70ktBj9gMl1w==}
 
   '@storybook/client-logger@8.1.6':
     resolution: {integrity: sha512-QfSoUxS1rmrBzO7o99og9g+Gkm7sTmU5ZOpTkjszjlRqfV6/77eUnUOzUikej4LqPLmlJV5fqGuvoP0aNVksDw==}
@@ -1669,14 +1663,6 @@ packages:
       prettier:
         optional: true
 
-  '@storybook/core-common@8.1.5':
-    resolution: {integrity: sha512-1QDOT6KPZ9KV7Gs1yyqzvSwGBmNSUB33gckUldSBF4aqP+tZ7W5JIQ6/YTtp3V02sEokZGdL9Ud4LczQxTgy3A==}
-    peerDependencies:
-      prettier: ^2 || ^3
-    peerDependenciesMeta:
-      prettier:
-        optional: true
-
   '@storybook/core-common@8.1.6':
     resolution: {integrity: sha512-OTlfJFaTOB588ibXrrFm0TAXam6E5xV1VXSjNXL+fIifx8Kjln2HNSy1JKjvcblQneYiV4J1xPCVnAIe0EGHDg==}
     peerDependencies:
@@ -1690,9 +1676,6 @@ packages:
 
   '@storybook/core-events@8.1.4':
     resolution: {integrity: sha512-oZAP3aRDeRyo2GQmADh4R3wJLIb9Ie0FUcWx8V4fvuydzeh6Pprgo//COCR+kySG4kRLqofWeF1Zzvft58Q0kg==}
-
-  '@storybook/core-events@8.1.5':
-    resolution: {integrity: sha512-fgwbrHoLtSX6kfmamTGJqD+KfuEgun8cc4mWKZK094ByaqbSjhnOyeYO1sfVk8qst7QTFlOfhLAUe4cz1z149A==}
 
   '@storybook/core-events@8.1.6':
     resolution: {integrity: sha512-DaIVe4TUp/7uQdSJYGmJv9S/S364tSgZ3S3dZ1vsf1rgoUbCp5kTBtcd/fcqgukMPREgCgO9oDhmemI3SLAqzw==}
@@ -1708,9 +1691,6 @@ packages:
 
   '@storybook/csf-tools@8.1.3':
     resolution: {integrity: sha512-22h6Uv7w29v8HjoFsJvAkBci9POVH0aQhlfZ4NNYkiMbgD4X4HWeD2wqob6fTKpVWP3tDaNS9FfCWHxQXFE+ag==}
-
-  '@storybook/csf-tools@8.1.5':
-    resolution: {integrity: sha512-jOfUo0arlaG4LlsdWaRfZCS0I1FhUnkf06ThzRBrrp8mFAPtOpf9iW16J3fYMS5vAdE/v+Z1RxuTRich4/JGdQ==}
 
   '@storybook/csf-tools@8.1.6':
     resolution: {integrity: sha512-jrKfHFNhiLBhWWW4/fm2wgKEVg55e6QuYUHY16KGd7PdPuzm+2Pt7jIl5V9yIj6a59YbjeMpT6jWPKbFx2TuCw==}
@@ -1773,9 +1753,6 @@ packages:
   '@storybook/node-logger@8.1.3':
     resolution: {integrity: sha512-MpQ7Zl5n58zbFr1Yu3qgInGENoScEnfqsCxipMhj57b5SWJJ7NoOdSAWznjFFffo8NoaqxldHscuaQfzPBN9hA==}
 
-  '@storybook/node-logger@8.1.5':
-    resolution: {integrity: sha512-9qwPX/uGhdHaVjeVUSwJUSbKX7g9goyhGYdKVuCEyl7vHR9Kp7Zkag2sEHmVdd9ixTea3jk2GZQEbnBDNQNGnw==}
-
   '@storybook/node-logger@8.1.6':
     resolution: {integrity: sha512-IZEiTLFHu8Oom/vdEGpisSw5CfU+cw6/fTaX1P3EVClFOWVuy8/3X5MPu4wJH3jPym6E2DBduIUFeRsiuq61gA==}
 
@@ -1795,9 +1772,6 @@ packages:
 
   '@storybook/preview-api@8.1.4':
     resolution: {integrity: sha512-WHS3k/8UZT5vYJ+evSAMLG89sv1rBaojTQ2XNgv/DX74vK4l0MQ61wsORC0v7ScGyEuwYIuSCqHH5NNrOBLxmA==}
-
-  '@storybook/preview-api@8.1.5':
-    resolution: {integrity: sha512-pv0aT5WbnSYR7KWQgy3jLfuBM0ocYG6GTcmZLREW5554oiBPHhzNFv+ZrBI47RzbrbFxq1h5dj4v8lkEcKIrbA==}
 
   '@storybook/preview-api@8.1.6':
     resolution: {integrity: sha512-g9EvVg/DYqmjMh1uivJBJnSIvURyuK4LLabYicQNmYdQJscAeXX2bpMcA4aeci9BBm9B2RP7JbSnq7DbXZaJYA==}
@@ -1874,9 +1848,6 @@ packages:
 
   '@storybook/types@8.1.4':
     resolution: {integrity: sha512-QfTJg5Hu3c0eiD38Z75bZsw0iCIpruOTGV5O65vCpNun7D6WUyyMM0aUJN3ytujGiHfjsWVgiSe+WoHxdy/fEA==}
-
-  '@storybook/types@8.1.5':
-    resolution: {integrity: sha512-/PfAZh1xtXN2MvAZZKpiL/nPkC3bZj8BQ7P7z5a/aQarP+y7qdXuoitYQ6oOH3rkaiYywmkWzA/y4iW70KXLKg==}
 
   '@storybook/types@8.1.6':
     resolution: {integrity: sha512-cWpS9+x1pxCO39spR8QmumMK2ub2p5cvMtrRvWaIjBFPbCwm2CvjBXFWIra2veBCZTxUKJ9VWxvi7pzRHjN/nw==}
@@ -5465,8 +5436,8 @@ packages:
     resolution: {integrity: sha512-GbK2cP9nraSSUF9N2XwUwqfzlAFlMNYYl+ShE/V+H8a9uNl/oUqB1w2EL54Jh0OlyRSd8RfWYJ3coVS4TROP2w==}
     engines: {node: '>=6.0.0'}
 
-  prettier-plugin-tailwindcss@0.6.1:
-    resolution: {integrity: sha512-AnbeYZu0WGj+QgKciUgdMnRxrqcxltleZPgdwfA5104BHM3siBLONN/HLW1yS2HvzSNkzpQ/JAj+LN0jcJO+0w==}
+  prettier-plugin-tailwindcss@0.6.2:
+    resolution: {integrity: sha512-eFefm4cg+1c2B57+H274Qm//CTWBdtQN9ansl0YTP/8TC8x3bugCTQSS/e4FC5Ctl9djhTzsbcMrZ7x2/abIow==}
     engines: {node: '>=14.21.3'}
     peerDependencies:
       '@ianvs/prettier-plugin-sort-imports': '*'
@@ -8566,14 +8537,6 @@ snapshots:
       telejson: 7.2.0
       tiny-invariant: 1.3.3
 
-  '@storybook/channels@8.1.5':
-    dependencies:
-      '@storybook/client-logger': 8.1.5
-      '@storybook/core-events': 8.1.5
-      '@storybook/global': 5.0.0
-      telejson: 7.2.0
-      tiny-invariant: 1.3.3
-
   '@storybook/channels@8.1.6':
     dependencies:
       '@storybook/client-logger': 8.1.6
@@ -8634,10 +8597,6 @@ snapshots:
       '@storybook/global': 5.0.0
 
   '@storybook/client-logger@8.1.4':
-    dependencies:
-      '@storybook/global': 5.0.0
-
-  '@storybook/client-logger@8.1.5':
     dependencies:
       '@storybook/global': 5.0.0
 
@@ -8738,43 +8697,6 @@ snapshots:
       - encoding
       - supports-color
 
-  '@storybook/core-common@8.1.5(prettier@3.2.5)':
-    dependencies:
-      '@storybook/core-events': 8.1.5
-      '@storybook/csf-tools': 8.1.5
-      '@storybook/node-logger': 8.1.5
-      '@storybook/types': 8.1.5
-      '@yarnpkg/fslib': 2.10.3
-      '@yarnpkg/libzip': 2.3.0
-      chalk: 4.1.2
-      cross-spawn: 7.0.3
-      esbuild: 0.20.2
-      esbuild-register: 3.5.0(esbuild@0.20.2)
-      execa: 5.1.1
-      file-system-cache: 2.3.0
-      find-cache-dir: 3.3.2
-      find-up: 5.0.0
-      fs-extra: 11.2.0
-      glob: 10.3.15
-      handlebars: 4.7.8
-      lazy-universal-dotenv: 4.0.0
-      node-fetch: 2.7.0
-      picomatch: 2.3.1
-      pkg-dir: 5.0.0
-      prettier-fallback: prettier@3.2.5
-      pretty-hrtime: 1.0.3
-      resolve-from: 5.0.0
-      semver: 7.6.2
-      tempy: 3.1.0
-      tiny-invariant: 1.3.3
-      ts-dedent: 2.2.0
-      util: 0.12.5
-    optionalDependencies:
-      prettier: 3.2.5
-    transitivePeerDependencies:
-      - encoding
-      - supports-color
-
   '@storybook/core-common@8.1.6(prettier@3.2.5)':
     dependencies:
       '@storybook/core-events': 8.1.6
@@ -8818,11 +8740,6 @@ snapshots:
       ts-dedent: 2.2.0
 
   '@storybook/core-events@8.1.4':
-    dependencies:
-      '@storybook/csf': 0.1.7
-      ts-dedent: 2.2.0
-
-  '@storybook/core-events@8.1.5':
     dependencies:
       '@storybook/csf': 0.1.7
       ts-dedent: 2.2.0
@@ -8915,20 +8832,6 @@ snapshots:
       '@babel/types': 7.24.5
       '@storybook/csf': 0.1.7
       '@storybook/types': 8.1.3
-      fs-extra: 11.2.0
-      recast: 0.23.7
-      ts-dedent: 2.2.0
-    transitivePeerDependencies:
-      - supports-color
-
-  '@storybook/csf-tools@8.1.5':
-    dependencies:
-      '@babel/generator': 7.24.5
-      '@babel/parser': 7.24.5
-      '@babel/traverse': 7.24.5
-      '@babel/types': 7.24.5
-      '@storybook/csf': 0.1.7
-      '@storybook/types': 8.1.5
       fs-extra: 11.2.0
       recast: 0.23.7
       ts-dedent: 2.2.0
@@ -9141,8 +9044,6 @@ snapshots:
 
   '@storybook/node-logger@8.1.3': {}
 
-  '@storybook/node-logger@8.1.5': {}
-
   '@storybook/node-logger@8.1.6': {}
 
   '@storybook/preset-react-webpack@8.1.6(esbuild@0.20.2)(prettier@3.2.5)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.4.2)':
@@ -9200,23 +9101,6 @@ snapshots:
       '@storybook/csf': 0.1.7
       '@storybook/global': 5.0.0
       '@storybook/types': 8.1.4
-      '@types/qs': 6.9.15
-      dequal: 2.0.3
-      lodash: 4.17.21
-      memoizerific: 1.11.3
-      qs: 6.12.1
-      tiny-invariant: 1.3.3
-      ts-dedent: 2.2.0
-      util-deprecate: 1.0.2
-
-  '@storybook/preview-api@8.1.5':
-    dependencies:
-      '@storybook/channels': 8.1.5
-      '@storybook/client-logger': 8.1.5
-      '@storybook/core-events': 8.1.5
-      '@storybook/csf': 0.1.7
-      '@storybook/global': 5.0.0
-      '@storybook/types': 8.1.5
       '@types/qs': 6.9.15
       dequal: 2.0.3
       lodash: 4.17.21
@@ -9396,12 +9280,6 @@ snapshots:
   '@storybook/types@8.1.4':
     dependencies:
       '@storybook/channels': 8.1.4
-      '@types/express': 4.17.21
-      file-system-cache: 2.3.0
-
-  '@storybook/types@8.1.5':
-    dependencies:
-      '@storybook/channels': 8.1.5
       '@types/express': 4.17.21
       file-system-cache: 2.3.0
 
@@ -13735,7 +13613,7 @@ snapshots:
     dependencies:
       fast-diff: 1.3.0
 
-  prettier-plugin-tailwindcss@0.6.1(prettier@3.2.5):
+  prettier-plugin-tailwindcss@0.6.2(prettier@3.2.5):
     dependencies:
       prettier: 3.2.5
 
