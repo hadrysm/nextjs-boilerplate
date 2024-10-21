@@ -17,7 +17,7 @@
     "test:ci": "jest --ci",
     "storybook": "storybook dev -p 6006",
     "storybook:build": "storybook build",
-    "postinstall": "husky install",
+    "postinstall": "husky",
     "generate": "pnpm plop --plopfile ./.plop/plopfile.js"
   },
   "engines": {
