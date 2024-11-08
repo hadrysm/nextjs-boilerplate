@@ -47,8 +47,8 @@ importers:
         specifier: ^8.3.6
         version: 8.3.6(storybook@8.4.2(prettier@3.3.3))(webpack-sources@3.2.3)
       '@storybook/addon-interactions':
-        specifier: ^8.3.6
-        version: 8.3.6(storybook@8.4.2(prettier@3.3.3))
+        specifier: ^8.4.2
+        version: 8.4.2(storybook@8.4.2(prettier@3.3.3))
       '@storybook/addon-links':
         specifier: ^8.3.6
         version: 8.3.6(react@19.0.0-rc-65a56d0e-20241020)(storybook@8.4.2(prettier@3.3.3))
@@ -1570,10 +1570,10 @@ packages:
     peerDependencies:
       storybook: ^8.3.6
 
-  '@storybook/addon-interactions@8.3.6':
-    resolution: {integrity: sha512-Y0YUJj0oE1+6DFkaTPXM/8+dwTSoy0ltj2Sn2KOTJYzxKQYXBp8TlUv0QOQiGH7o/GKXIWek/VlTuvG/JEeiWw==}
+  '@storybook/addon-interactions@8.4.2':
+    resolution: {integrity: sha512-+/NTENTApeOcONgFNQ6Olbk0GH3pTDG3w0eh00slCB+2agD1BcVKg8SSlHQV0lQF1cK3vWL/X3jeaxdFLYOjjg==}
     peerDependencies:
-      storybook: ^8.3.6
+      storybook: ^8.4.2
 
   '@storybook/addon-links@8.3.6':
     resolution: {integrity: sha512-EGEH/kEjndEldbqyiJ8XSASkxqwzL/lgA/+6mHpa6Ljxhk1s5IMGcdA1ymJYJ2BpNdkUxRj/uxAa38eGcQiJ/g==}
@@ -1666,6 +1666,11 @@ packages:
     peerDependencies:
       storybook: ^8.3.6
 
+  '@storybook/instrumenter@8.4.2':
+    resolution: {integrity: sha512-gPYCZ/0O6gRLI3zmenu2N6QtKzxDZFdT2xf4RWcNUSZyp28RZkRCIgKFMt3fTmvE0yMzAjQyRSkBdrONjQ44HA==}
+    peerDependencies:
+      storybook: ^8.4.2
+
   '@storybook/manager-api@8.3.6':
     resolution: {integrity: sha512-Xt5VFZcL+G/9uzaHjzWFhxRNrP+4rPhSRKEvCZorAbC9+Hv+ZDs1JSZS5wMb4WKpXBZ0rwDVOLwngqbVtfRHuQ==}
     peerDependencies:
@@ -1736,6 +1741,11 @@ packages:
     resolution: {integrity: sha512-WIc8LzK9jaEw+e3OiweEM2j3cppPzsWod59swuf6gDBf176EQLIyjtVc+Kh3qO4NNkcL+lwmqaLPjOxlBLaDbg==}
     peerDependencies:
       storybook: ^8.3.6
+
+  '@storybook/test@8.4.2':
+    resolution: {integrity: sha512-MipTdboStv0hsqF2Sw8TZgP0YnxCcDYwxkTOd4hmRzev/7Brtvpi4pqjqh8k98ZCvhrCPAPVIoX5drk+oi3YUA==}
+    peerDependencies:
+      storybook: ^8.4.2
 
   '@storybook/testing-library@0.2.2':
     resolution: {integrity: sha512-L8sXFJUHmrlyU2BsWWZGuAjv39Jl1uAqUHdxmN42JY15M4+XCMjGlArdCCjDe1wpTSW6USYISA9axjZojgtvnw==}
@@ -7751,11 +7761,11 @@ snapshots:
       '@storybook/global': 5.0.0
       storybook: 8.4.2(prettier@3.3.3)
 
-  '@storybook/addon-interactions@8.3.6(storybook@8.4.2(prettier@3.3.3))':
+  '@storybook/addon-interactions@8.4.2(storybook@8.4.2(prettier@3.3.3))':
     dependencies:
       '@storybook/global': 5.0.0
-      '@storybook/instrumenter': 8.3.6(storybook@8.4.2(prettier@3.3.3))
-      '@storybook/test': 8.3.6(storybook@8.4.2(prettier@3.3.3))
+      '@storybook/instrumenter': 8.4.2(storybook@8.4.2(prettier@3.3.3))
+      '@storybook/test': 8.4.2(storybook@8.4.2(prettier@3.3.3))
       polished: 4.3.1
       storybook: 8.4.2(prettier@3.3.3)
       ts-dedent: 2.2.0
@@ -7932,6 +7942,12 @@ snapshots:
       storybook: 8.4.2(prettier@3.3.3)
       util: 0.12.5
 
+  '@storybook/instrumenter@8.4.2(storybook@8.4.2(prettier@3.3.3))':
+    dependencies:
+      '@storybook/global': 5.0.0
+      '@vitest/utils': 2.1.3
+      storybook: 8.4.2(prettier@3.3.3)
+
   '@storybook/manager-api@8.3.6(storybook@8.4.2(prettier@3.3.3))':
     dependencies:
       storybook: 8.4.2(prettier@3.3.3)
@@ -8103,6 +8119,18 @@ snapshots:
       '@vitest/spy': 2.0.5
       storybook: 8.4.2(prettier@3.3.3)
       util: 0.12.5
+
+  '@storybook/test@8.4.2(storybook@8.4.2(prettier@3.3.3))':
+    dependencies:
+      '@storybook/csf': 0.1.11
+      '@storybook/global': 5.0.0
+      '@storybook/instrumenter': 8.4.2(storybook@8.4.2(prettier@3.3.3))
+      '@testing-library/dom': 10.4.0
+      '@testing-library/jest-dom': 6.5.0
+      '@testing-library/user-event': 14.5.2(@testing-library/dom@10.4.0)
+      '@vitest/expect': 2.0.5
+      '@vitest/spy': 2.0.5
+      storybook: 8.4.2(prettier@3.3.3)
 
   '@storybook/testing-library@0.2.2':
     dependencies:
@@ -12008,7 +12036,7 @@ snapshots:
 
   polished@4.3.1:
     dependencies:
-      '@babel/runtime': 7.24.5
+      '@babel/runtime': 7.25.7
 
   possible-typed-array-names@1.0.0: {}
 
@@ -12322,7 +12350,7 @@ snapshots:
 
   regenerator-transform@0.15.2:
     dependencies:
-      '@babel/runtime': 7.24.5
+      '@babel/runtime': 7.25.7
 
   regex-parser@2.3.0: {}
 
