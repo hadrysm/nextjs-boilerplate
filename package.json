@@ -34,7 +34,7 @@
     "zod": "3.23.8"
   },
   "devDependencies": {
-    "@eslint/compat": "^1.2.2",
+    "@eslint/compat": "^1.2.3",
     "@eslint/eslintrc": "^3.2.0",
     "@eslint/js": "^9.14.0",
     "@storybook/addon-essentials": "^8.3.6",
