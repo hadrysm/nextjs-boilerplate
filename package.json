@@ -39,7 +39,7 @@
     "@eslint/js": "^9.16.0",
     "@storybook/addon-essentials": "^8.3.6",
     "@storybook/addon-interactions": "^8.4.2",
-    "@storybook/addon-links": "^8.3.6",
+    "@storybook/addon-links": "^8.4.2",
     "@storybook/blocks": "^8.4.2",
     "@storybook/nextjs": "^8.3.6",
     "@storybook/react": "^8.3.6",
