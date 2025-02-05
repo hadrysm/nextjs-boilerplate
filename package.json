@@ -46,7 +46,7 @@
     "@storybook/testing-library": "^0.2.2",
     "@testing-library/jest-dom": "6.6.3",
     "@testing-library/react": "16.0.1",
-    "@testing-library/user-event": "14.6.0",
+    "@testing-library/user-event": "14.6.1",
     "@types/jest": "29.5.14",
     "@types/node": "22.10.7",
     "@types/react": "npm:types-react@19.0.0-rc.1",
