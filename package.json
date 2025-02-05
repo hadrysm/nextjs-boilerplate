@@ -25,7 +25,7 @@
   },
   "packageManager": "pnpm@9.1.1+sha256.9551e803dcb7a1839fdf5416153a844060c7bce013218ce823410532504ac10b",
   "dependencies": {
-    "@t3-oss/env-nextjs": "0.11.1",
+    "@t3-oss/env-nextjs": "0.12.0",
     "clsx": "2.1.1",
     "next": "15.1.6",
     "react": "19.0.0-rc-65a56d0e-20241020",
