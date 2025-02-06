@@ -37,7 +37,7 @@
     "@eslint/compat": "^1.2.5",
     "@eslint/eslintrc": "^3.2.0",
     "@eslint/js": "^9.19.0",
-    "@storybook/addon-essentials": "^8.5.0",
+    "@storybook/addon-essentials": "^8.5.3",
     "@storybook/addon-interactions": "^8.5.0",
     "@storybook/addon-links": "^8.5.0",
     "@storybook/blocks": "^8.5.0",
