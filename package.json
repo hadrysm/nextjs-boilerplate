@@ -30,7 +30,7 @@
     "next": "15.1.6",
     "react": "19.0.0-rc-65a56d0e-20241020",
     "react-dom": "19.0.0-rc-65a56d0e-20241020",
-    "tailwind-merge": "2.6.0",
+    "tailwind-merge": "3.0.1",
     "zod": "3.24.1"
   },
   "devDependencies": {
