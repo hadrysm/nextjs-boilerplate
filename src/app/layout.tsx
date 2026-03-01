@@ -25,9 +25,7 @@ const RootLayout = ({ children }: RootLayoutProps) => {
     <html lang="en">
       <body className={cn(inter.variable, 'font-primary')} suppressHydrationWarning>
         <MainProvider>
-          <MainLayout>
-            <main>{children}</main>
-          </MainLayout>
+          <MainLayout>{children}</MainLayout>
         </MainProvider>
       </body>
     </html>

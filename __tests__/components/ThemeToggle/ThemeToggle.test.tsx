@@ -4,6 +4,7 @@ import { render, screen } from '@/tests/test-utils';
 vi.mock('next-themes', () => ({
   useTheme: () => ({
     theme: 'light',
+    resolvedTheme: 'light',
     setTheme: vi.fn()
   })
 }));
