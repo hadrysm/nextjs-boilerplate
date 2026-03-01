@@ -34,8 +34,6 @@
     "zod": "4.3.6"
   },
   "devDependencies": {
-    "@eslint/compat": "2.0.2",
-    "@eslint/eslintrc": "3.3.4",
     "@eslint/js": "9.39.3",
     "@storybook/nextjs": "10.2.13",
     "@storybook/react": "10.2.13",
@@ -74,7 +72,8 @@
     "storybook": "10.2.13",
     "tailwind-scrollbar": "4.0.2",
     "tailwindcss": "4.2.1",
-    "typescript": "5.9.3"
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.56.1"
   },
   "lint-staged": {
     "src/**/*": [

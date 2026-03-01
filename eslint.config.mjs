@@ -5,11 +5,10 @@ import react from 'eslint-plugin-react';
 import storybook from 'eslint-plugin-storybook';
 import testingLibrary from 'eslint-plugin-testing-library';
 import importHelpers from 'eslint-plugin-import-helpers';
-import typescriptEslint from '@typescript-eslint/eslint-plugin';
-import tsParser from '@typescript-eslint/parser';
+import tseslint from 'typescript-eslint';
 import globals from 'globals';
 
-export default [
+export default tseslint.config(
   {
     ignores: [
       '**/node_modules/*',
@@ -20,6 +19,7 @@ export default [
     ]
   },
   js.configs.recommended,
+  ...tseslint.configs.recommended,
   ...nextConfig,
   react.configs.flat.recommended,
   react.configs.flat['jsx-runtime'],
@@ -27,7 +27,6 @@ export default [
   prettierRecommended,
   {
     plugins: {
-      '@typescript-eslint': typescriptEslint,
       'import-helpers': importHelpers
     },
 
@@ -38,7 +37,6 @@ export default [
         ...globals.node
       },
 
-      parser: tsParser,
       ecmaVersion: 11,
       sourceType: 'module',
 
@@ -98,4 +96,4 @@ export default [
     ...testingLibrary.configs['flat/react'],
     files: ['**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test).[jt]s?(x)']
   }
-];
+);
