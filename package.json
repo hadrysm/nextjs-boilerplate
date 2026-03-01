@@ -9,7 +9,7 @@
     "start": "next start",
     "prettier:format": "prettier --write .",
     "prettier:check": "prettier --check \"**/*.{ts,tsx,json}\"",
-    "lint": "next lint",
+    "lint": "eslint src",
     "eslint:format": "eslint src --fix",
     "test": "jest test",
     "test:coverage": "jest --coverage",
