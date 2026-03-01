@@ -1,6 +1,6 @@
 # Boilerplate and Starter for Next JS 15+, Tailwind CSS 3 and TypeScript
 
-🚀 Boilerplate and Starter for Next.js, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: Next.js (app routing), TypeScript, ESLint, Prettier, Husky, Lint-Staged, Jest, React Testing Library, PostCSS, Tailwind CSS, Storybook, Plop, GH actions.
+🚀 Boilerplate and Starter for Next.js, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: Next.js (app routing), TypeScript, Biome, Husky, Lint-Staged, Jest, React Testing Library, PostCSS, Tailwind CSS, Storybook, Plop, GH actions.
 
 ![Cover](https://svgshare.com/i/idk.svg)
 
@@ -13,8 +13,7 @@ Developer experience first:
 - Integrate with [Tailwind CSS](https://tailwindcss.com)
 - [Storybook](https://storybook.js.org) for components documentation
 - Strict Mode for TypeScript and React 18
-- Linter with [ESLint](https://eslint.org)
-- Code Formatter with [Prettier](https://prettier.io)
+- Linter and Code Formatter with [Biome](https://biomejs.dev)
 - [Husky](https://typicode.github.io/husky/#/) for Git Hooks
 - [Lint-staged](https://github.com/okonet/lint-staged) for running linters on Git staged files
 - Testing with [Jest](https://jestjs.io/) and [react-testing-library](https://testing-library.com/)
