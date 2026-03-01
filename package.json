@@ -1,16 +1,16 @@
 {
   "name": "nextjs-boilerplate",
   "version": "0.1.0",
-  "description": "Next.js boilerplate with husky, lint-staged, eslint + prettier, jest, react-testing-library, storybook, ghaction and plop.",
+  "description": "Next.js boilerplate with husky, lint-staged, biome, jest, react-testing-library, storybook, ghaction and plop.",
   "private": true,
   "scripts": {
     "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
-    "prettier:format": "prettier --write .",
-    "prettier:check": "prettier --check \"**/*.{ts,tsx,json}\"",
-    "lint": "eslint src",
-    "eslint:format": "eslint src --fix",
+    "lint": "biome lint src",
+    "format": "biome format --write .",
+    "check": "biome check .",
+    "fix": "biome check --write .",
     "test": "jest test",
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watch",
@@ -62,8 +62,7 @@
   },
   "lint-staged": {
     "src/**/*": [
-      "pnpm prettier:format",
-      "pnpm eslint:format"
+      "biome check --write --no-errors-on-unmatched"
     ]
   }
 }
