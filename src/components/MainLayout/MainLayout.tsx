@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import type { ReactNode } from 'react';
 
+import { ThemeToggle } from '@/components/ThemeToggle';
 import { cn } from '@/lib/utils';
 
 interface MainLayoutProps {
@@ -17,19 +18,23 @@ export const MainLayout = ({ children, className }: MainLayoutProps) => {
 
   return (
     <div className={wrapperStyles}>
-      <header className="bg-slate-900 p-4">
-        <ul className="flex items-center gap-10 text-gray-50">
+      <header className="flex items-center justify-between border-b border-border bg-background p-4">
+        <ul className="flex items-center gap-10">
           {links.map(({ slug, label }) => (
             <li key={slug}>
-              <Link href={slug} className="inline-block p-2 transition-colors hover:text-green-300">
+              <Link
+                href={slug}
+                className="inline-block p-2 text-foreground transition-colors hover:text-primary"
+              >
                 {label}
               </Link>
             </li>
           ))}
         </ul>
+        <ThemeToggle />
       </header>
       <main className="flex-1">{children}</main>
-      <footer className="flex items-center justify-center p-4">
+      <footer className="flex items-center justify-center border-t border-border p-4 text-muted-foreground">
         ©
         <Link href="https://www.linkedin.com/in/mateusz-hadry%C5%9B/" className="pr-2">
           Mateusz Hadryś
