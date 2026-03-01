@@ -1,16 +1,15 @@
 import { render, screen } from '@/tests/test-utils';
 
-import { MainProvider } from '.';
+import { MainLayout } from '@/components/MainLayout';
 
-describe('MainProvider', () => {
+describe('MainLayout', () => {
   it('should render the children components', () => {
     render(
-      <MainProvider pageProps={{}}>
+      <MainLayout>
         <h1>MainLayout children</h1>
-      </MainProvider>
+      </MainLayout>
     );
 
-    // Assert
     screen.getByRole('heading', { name: /MainLayout children/i });
   });
 });
