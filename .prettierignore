@@ -1,8 +1,0 @@
-node_modules
-.next
-yarn.lock
-public
-coverage
-.gitkeep
-*.hbs
-next-env.d.ts
