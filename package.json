@@ -11,10 +11,10 @@
     "format": "biome format --write .",
     "check": "biome check .",
     "fix": "biome check --write .",
-    "test": "jest test",
-    "test:coverage": "jest --coverage",
-    "test:watch": "jest --watch",
-    "test:ci": "jest --ci",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:watch": "vitest",
+    "test:ci": "vitest run",
     "storybook": "storybook dev -p 6006",
     "storybook:build": "storybook build",
     "postinstall": "husky"
@@ -43,14 +43,17 @@
     "@types/node": "24.0.0",
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "^5.1.4",
     "husky": "9.1.7",
+    "jsdom": "^28.1.0",
     "lint-staged": "16.1.6",
     "pinst": "3.0.0",
     "postcss": "8.5.6",
     "storybook": "10.2.13",
     "tailwind-scrollbar": "4.0.2",
     "tailwindcss": "4.2.1",
-    "typescript": "5.9.3"
+    "typescript": "5.9.3",
+    "vitest": "^4.0.18"
   },
   "lint-staged": {
     "src/**/*": [
