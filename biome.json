@@ -39,6 +39,9 @@
     "parser": {
       "cssModules": true,
       "tailwindDirectives": true
+    },
+    "formatter": {
+      "quoteStyle": "single"
     }
   },
   "assist": { "actions": { "source": { "organizeImports": "on" } } }

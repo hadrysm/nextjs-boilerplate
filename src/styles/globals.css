@@ -1,5 +1,5 @@
 @import 'tailwindcss';
-@plugin "tailwind-scrollbar";
+@plugin 'tailwind-scrollbar';
 
 @theme {
   --font-primary: var(--font-primary);
