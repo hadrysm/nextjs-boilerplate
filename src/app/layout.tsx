@@ -3,9 +3,8 @@ import '@/styles/globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import type { ReactNode } from 'react';
-
-import { MainProvider } from '@/components/providers/MainProvider';
-import { MainLayout } from '@/components/templates/MainLayout';
+import { MainLayout } from '@/components/MainLayout';
+import { MainProvider } from '@/components/MainProvider';
 
 import { cn } from '@/lib/utils';
 

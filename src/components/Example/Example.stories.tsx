@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from '@storybook/nextjs';
 import { Example } from './Example';
 
 const meta: Meta<typeof Example> = {
-  title: 'toms/Example',
+  title: 'Components/Example',
   component: Example,
   tags: ['autodocs'],
   args: {
