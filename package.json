@@ -1,7 +1,7 @@
 {
   "name": "nextjs-boilerplate",
   "version": "0.1.0",
-  "description": "Next.js boilerplate with husky, lint-staged, biome, jest, react-testing-library, storybook, ghaction and plop.",
+  "description": "Next.js boilerplate with husky, lint-staged, biome, vitest, react-testing-library, storybook and ghaction.",
   "private": true,
   "scripts": {
     "dev": "next dev --turbo",
@@ -17,8 +17,7 @@
     "test:ci": "jest --ci",
     "storybook": "storybook dev -p 6006",
     "storybook:build": "storybook build",
-    "postinstall": "husky",
-    "generate": "pnpm plop --plopfile ./.plop/plopfile.js"
+    "postinstall": "husky"
   },
   "engines": {
     "node": ">=24.13.0"
@@ -41,19 +40,12 @@
     "@testing-library/jest-dom": "6.9.1",
     "@testing-library/react": "16.3.2",
     "@testing-library/user-event": "14.6.1",
-    "@types/jest": "30.0.0",
     "@types/node": "24.0.0",
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
-    "babel-jest": "30.2.0",
     "husky": "9.1.7",
-    "identity-obj-proxy": "3.0.0",
-    "jest": "30.2.0",
-    "jest-environment-jsdom": "30.2.0",
-    "jest-watch-typeahead": "3.0.1",
     "lint-staged": "16.1.6",
     "pinst": "3.0.0",
-    "plop": "4.0.5",
     "postcss": "8.5.6",
     "storybook": "10.2.13",
     "tailwind-scrollbar": "4.0.2",
