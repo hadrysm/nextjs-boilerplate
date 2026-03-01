@@ -3,10 +3,9 @@ const featuresItems = [
   { icon: '🔥', name: 'Type checking TypeScript' },
   { icon: '💅', name: 'Tailwind CSS' },
   { icon: '✨', name: 'Biome' },
-  { icon: '🧪', name: 'Jest' },
+  { icon: '🧪', name: 'Vitest' },
   { icon: '🧪', name: 'React Testing Library' },
   { icon: '📕', name: 'Storybook' },
-  { icon: '💎', name: 'Atomic Design' },
   { icon: '🚀', name: 'GitHub Actions' },
   { icon: '💻', name: 'T3 Env' },
   { icon: '🏁', name: 'Absolute Imports using `@` prefix' }
@@ -22,8 +21,8 @@ const HomePage = () => (
           </h1>
           <p className="mb-6 max-w-2xl font-light text-gray-500 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
             Boilerplate and Starter for Next.js, Tailwind CSS and TypeScript ⚡️ Made with developer
-            experience first: Next.js, TypeScript, Biome, Husky, Lint-Staged, Jest, React Testing
-            Library, PostCSS, Tailwind CSS, Storybook, Plop, GH actions.
+            experience first: Next.js, TypeScript, Biome, Husky, Lint-Staged, Vitest, React Testing
+            Library, PostCSS, Tailwind CSS, Storybook, GH actions.
           </p>
         </div>
       </div>
