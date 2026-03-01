@@ -35,7 +35,6 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^2.4.4",
-    "@eslint/js": "9.39.3",
     "@storybook/nextjs": "10.2.13",
     "@storybook/react": "10.2.13",
     "@tailwindcss/postcss": "4.2.1",
@@ -46,19 +45,7 @@
     "@types/node": "24.0.0",
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
-    "@typescript-eslint/eslint-plugin": "8.56.1",
-    "@typescript-eslint/parser": "8.56.1",
     "babel-jest": "30.2.0",
-    "eslint": "9.39.3",
-    "eslint-config-next": "16.1.6",
-    "eslint-config-prettier": "10.1.8",
-    "eslint-plugin-import-helpers": "2.0.1",
-    "eslint-plugin-prettier": "5.5.5",
-    "eslint-plugin-react": "7.37.5",
-    "eslint-plugin-react-hooks": "7.0.1",
-    "eslint-plugin-storybook": "10.2.13",
-    "eslint-plugin-testing-library": "7.16.0",
-    "globals": "17.4.0",
     "husky": "9.1.7",
     "identity-obj-proxy": "3.0.0",
     "jest": "30.2.0",
@@ -68,13 +55,10 @@
     "pinst": "3.0.0",
     "plop": "4.0.5",
     "postcss": "8.5.6",
-    "prettier": "3.8.1",
-    "prettier-plugin-tailwindcss": "0.7.2",
     "storybook": "10.2.13",
     "tailwind-scrollbar": "4.0.2",
     "tailwindcss": "4.2.1",
-    "typescript": "5.9.3",
-    "typescript-eslint": "8.56.1"
+    "typescript": "5.9.3"
   },
   "lint-staged": {
     "src/**/*": [
