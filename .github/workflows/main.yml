@@ -9,8 +9,8 @@ on:
     types: [opened, synchronize, reopened]
 
 jobs:
-  prettier-check:
-    name: Prettier check
+  biome-check:
+    name: Biome check
     runs-on: ubuntu-latest
     env:
       SKIP_ENV_VALIDATION: ${{ secrets.SKIP_ENV_VALIDATION }}
@@ -25,31 +25,12 @@ jobs:
           node-version: 24
       - name: Install dependencies
         run: pnpm install
-      - name: Run prettier check
-        run: pnpm prettier:check
-
-  eslint-check:
-    name: Eslint check
-    runs-on: ubuntu-latest
-    env:
-      SKIP_ENV_VALIDATION: ${{ secrets.SKIP_ENV_VALIDATION }}
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4
-      - name: Setup node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 24
-      - name: Install dependencies
-        run: pnpm install
-      - name: Run eslint check
-        run: pnpm eslint:format
+      - name: Run Biome check
+        run: pnpm check
 
   jest-check:
     name: Tests - jest
-    needs: [prettier-check, eslint-check]
+    needs: [biome-check]
     runs-on: ubuntu-latest
     env:
       SKIP_ENV_VALIDATION: ${{ secrets.SKIP_ENV_VALIDATION }}
