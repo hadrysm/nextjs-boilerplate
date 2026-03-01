@@ -1,6 +1,5 @@
-import { render, screen } from '@/tests/test-utils';
-
 import { MainLayout } from '@/components/MainLayout';
+import { render, screen } from '@/tests/test-utils';
 
 describe('MainLayout', () => {
   it('should render the children components', () => {
