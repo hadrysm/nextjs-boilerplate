@@ -1,12 +1,12 @@
 import js from '@eslint/js';
 import nextConfig from 'eslint-config-next/core-web-vitals';
+import importHelpers from 'eslint-plugin-import-helpers';
 import prettierRecommended from 'eslint-plugin-prettier/recommended';
 import react from 'eslint-plugin-react';
 import storybook from 'eslint-plugin-storybook';
 import testingLibrary from 'eslint-plugin-testing-library';
-import importHelpers from 'eslint-plugin-import-helpers';
-import tseslint from 'typescript-eslint';
 import globals from 'globals';
+import tseslint from 'typescript-eslint';
 
 export default tseslint.config(
   {

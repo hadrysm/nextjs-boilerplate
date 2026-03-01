@@ -1,8 +1,8 @@
 import '@/styles/globals.css';
 
-import { Metadata } from 'next';
+import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
-import { ReactNode } from 'react';
+import type { ReactNode } from 'react';
 
 import { MainProvider } from '@/components/providers/MainProvider';
 import { MainLayout } from '@/components/templates/MainLayout';

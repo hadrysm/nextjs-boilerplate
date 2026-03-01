@@ -6,7 +6,7 @@
     "useIgnoreFile": true
   },
   "files": {
-    "includes": ["**", "!**/coverage/**", "!**/.next/**", "!**/out/**"]
+    "includes": ["**", "!**/coverage", "!**/.next", "!**/out"]
   },
   "formatter": {
     "indentStyle": "space",

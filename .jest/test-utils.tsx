@@ -1,8 +1,8 @@
-import { render, RenderOptions } from '@testing-library/react';
-import { ReactElement } from 'react';
+import { type RenderOptions, render } from '@testing-library/react';
+import type { ReactElement, ReactNode } from 'react';
 
 type ProvidersProps = {
-  readonly children?: any;
+  readonly children?: ReactNode;
 };
 
 // Add in any providers here if necessary:
