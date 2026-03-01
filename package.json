@@ -34,6 +34,7 @@
     "zod": "4.3.6"
   },
   "devDependencies": {
+    "@biomejs/biome": "^2.4.4",
     "@eslint/js": "9.39.3",
     "@storybook/nextjs": "10.2.13",
     "@storybook/react": "10.2.13",
