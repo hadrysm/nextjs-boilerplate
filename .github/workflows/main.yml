@@ -16,15 +16,13 @@ jobs:
       SKIP_ENV_VALIDATION: ${{ secrets.SKIP_ENV_VALIDATION }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Setup pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          version: 8.10.2
+        uses: pnpm/action-setup@v4
       - name: Setup node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 24
       - name: Install dependencies
         run: pnpm install
       - name: Run prettier check
@@ -37,15 +35,13 @@ jobs:
       SKIP_ENV_VALIDATION: ${{ secrets.SKIP_ENV_VALIDATION }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Setup pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          version: 8.10.2
+        uses: pnpm/action-setup@v4
       - name: Setup node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 24
       - name: Install dependencies
         run: pnpm install
       - name: Run eslint check
@@ -59,15 +55,13 @@ jobs:
       SKIP_ENV_VALIDATION: ${{ secrets.SKIP_ENV_VALIDATION }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Setup pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          version: 8.10.2
+        uses: pnpm/action-setup@v4
       - name: Setup node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 24
       - name: Install dependencies
         run: pnpm install
       - name: Run tests
@@ -83,15 +77,13 @@ jobs:
       SKIP_ENV_VALIDATION: ${{ secrets.SKIP_ENV_VALIDATION }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Setup pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          version: 8.10.2
+        uses: pnpm/action-setup@v4
       - name: Setup node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 24
       - name: Install dependencies
         run: pnpm install
       - name: Build nextjs
@@ -107,15 +99,13 @@ jobs:
       SKIP_ENV_VALIDATION: ${{ secrets.SKIP_ENV_VALIDATION }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Setup pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          version: 8.10.2
+        uses: pnpm/action-setup@v4
       - name: Setup node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 24
       - name: Install dependencies
         run: pnpm install
       - name: Build storybook
