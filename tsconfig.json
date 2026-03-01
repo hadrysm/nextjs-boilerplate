@@ -4,12 +4,11 @@
     "baseUrl": ".",
     "paths": {
       "@/components/*": ["./src/components/*"],
-      "@/pages/*": ["./src/pages/*"],
       "@/lib/*": ["./src/lib/*"],
       "@/hooks/*": ["./src/hooks/*"],
       "@/styles/*": ["./src/styles/*"],
-      "@/mocks/*": ["./__mocks__/*"],
-      "@/tests/*": ["./.jest/*"]
+      "@/mocks/*": ["./__tests__/__mocks__/*"],
+      "@/tests/*": ["./__tests__/*"]
     },
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
