@@ -28,8 +28,8 @@ jobs:
       - name: Run Biome check
         run: pnpm check
 
-  jest-check:
-    name: Tests - jest
+  test-check:
+    name: Tests - vitest
     needs: [biome-check]
     runs-on: ubuntu-latest
     env:
@@ -52,7 +52,7 @@ jobs:
 
   nextjs-build-check:
     name: Build nextjs application
-    needs: [jest-check]
+    needs: [test-check]
     runs-on: ubuntu-latest
     env:
       SKIP_ENV_VALIDATION: ${{ secrets.SKIP_ENV_VALIDATION }}
@@ -74,7 +74,7 @@ jobs:
 
   storybook-build-check:
     name: Build storybook application
-    needs: [jest-check]
+    needs: [test-check]
     runs-on: ubuntu-latest
     env:
       SKIP_ENV_VALIDATION: ${{ secrets.SKIP_ENV_VALIDATION }}
