@@ -55,7 +55,7 @@
     "postcss": "8.5.10",
     "storybook": "10.4.6",
     "tailwind-scrollbar": "4.0.2",
-    "tailwindcss": "4.2.1",
+    "tailwindcss": "4.3.3",
     "typescript": "5.9.3",
     "vitest": "^4.1.7"
   },
