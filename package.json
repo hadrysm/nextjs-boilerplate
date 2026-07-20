@@ -37,7 +37,7 @@
     "zod": "4.3.6"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.4.4",
+    "@biomejs/biome": "2.5.4",
     "@storybook/nextjs": "10.2.13",
     "@storybook/react": "10.2.13",
     "@tailwindcss/postcss": "4.2.1",
