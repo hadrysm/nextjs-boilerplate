@@ -52,7 +52,7 @@
     "jsdom": "^29.1.1",
     "lint-staged": "17.0.8",
     "pinst": "3.0.0",
-    "postcss": "8.5.10",
+    "postcss": "8.5.18",
     "storybook": "10.4.6",
     "tailwind-scrollbar": "4.0.2",
     "tailwindcss": "4.3.3",
