@@ -1,0 +1,7 @@
+name: conventional
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened]
+jobs:
+  conventional:
+    uses: hadrysm/fleet/.github/workflows/conventional.yml@main
