@@ -1,0 +1,98 @@
+# Reusable check for semantic PR titles, branch names and conventional commits.
+#
+# A repo adopts it with a small caller workflow, for example
+# .github/workflows/conventional.yml in that repo:
+#
+#   name: conventional
+#   on:
+#     pull_request:
+#       types: [opened, edited, synchronize, reopened]
+#   jobs:
+#     conventional:
+#       uses: hadrysm/fleet/.github/workflows/conventional.yml@main
+#
+# fleet is private, so only repos owned by hadrysm can call it, and only after
+# fleet's Settings > Actions > General > Access allows "repositories owned by
+# the user". An org repo copies this file instead of calling it.
+name: conventional
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened]
+
+permissions:
+  contents: read
+
+jobs:
+  conventional:
+    name: conventional
+    if: github.event.pull_request
+    runs-on: ubuntu-latest
+    steps:
+      - name: PR title is semantic
+        env:
+          TITLE: ${{ github.event.pull_request.title }}
+          TYPES: feat|fix|chore|refactor|docs|test|perf|build|ci|style|revert
+        run: |
+          re="^(${TYPES})(\([^()[:space:]][^()]*\))?!?: [^[:space:]].*$"
+          ticket='^\[?[A-Z][A-Z0-9]*-[0-9]+'
+          if [[ "$TITLE" =~ $ticket ]]; then
+            echo "::error::PR title starts with a ticket key: $TITLE"; exit 1
+          fi
+          if ! [[ "$TITLE" =~ $re ]]; then
+            echo "::error::PR title is not semantic (type(scope)!: description, type one of ${TYPES}): $TITLE"; exit 1
+          fi
+          scope=$(sed -nE 's/^[a-z]+\(([^)]*)\).*/\1/p' <<<"$TITLE")
+          desc=${TITLE#*: }
+          if [[ "$scope" =~ $ticket || "$desc" =~ $ticket ]]; then
+            echo "::error::PR title carries a ticket key: $TITLE"; exit 1
+          fi
+          echo "ok: $TITLE"
+
+      - name: Branch name is semantic
+        env:
+          BRANCH: ${{ github.head_ref }}
+          TYPES: feat|fix|chore|refactor|docs|test|perf|build|ci|style|revert
+          BOTS: dependabot|renovate
+        run: |
+          if [[ "$BRANCH" =~ ^(${BOTS})/ ]]; then echo "ok: bot branch $BRANCH"; exit 0; fi
+          if ! [[ "$BRANCH" =~ ^(${TYPES})/[a-z0-9._-]+$ ]]; then
+            echo "::error::branch is not semantic (type/short-topic, e.g. feat/price-filters): $BRANCH"; exit 1
+          fi
+          echo "ok: $BRANCH"
+
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
+          persist-credentials: false
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Commits are conventional
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          TYPES: feat|fix|chore|refactor|docs|test|perf|build|ci|style|revert
+          V: "19"
+        run: |
+          dir="$RUNNER_TEMP/commitlint"
+          mkdir -p "$dir"
+          npm install --prefix "$dir" --no-save --no-audit --no-fund \
+            "@commitlint/cli@$V" "@commitlint/config-conventional@$V" >/dev/null
+          types_json=$(tr '|' '\n' <<<"$TYPES" | sed 's/.*/"&"/' | paste -sd, -)
+          cat > "$dir/commitlint.config.mjs" <<CFG
+          export default {
+            extends: ["@commitlint/config-conventional"],
+            rules: {
+              "type-enum": [2, "always", [${types_json}]],
+              "body-max-line-length": [0],
+              "footer-max-line-length": [0],
+            },
+          };
+          CFG
+          base=$(git merge-base "$BASE_SHA" "$HEAD_SHA")
+          "$dir/node_modules/.bin/commitlint" --config "$dir/commitlint.config.mjs" \
+            --cwd "$GITHUB_WORKSPACE" --from "$base" --to "$HEAD_SHA" --verbose
